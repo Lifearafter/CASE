@@ -1,0 +1,61 @@
+# Contributing to the CubeSat Project
+
+By contributing, you help make this project better and contribute to the field of CubeSat development.
+
+## How to Contribute
+
+We welcome contributions from the community and encourage you to participate in making improvements to the project. To get started, follow these steps:
+
+1. Fork the Repository: Click on the "Fork" button on the top right corner of the GitHub repository to create your own fork.
+
+2. Clone the Repository: Clone the forked repository to your local machine using the following command:
+
+```
+Copy code
+git clone https://github.com/your-username/cubesatellite-electrical.git
+```
+
+3. Create a Branch: Create a new branch for your contribution using a descriptive branch name. For example:
+
+```
+Copy code
+git checkout -b feature/new-feature
+```
+
+4. Make Changes: Make your changes to the codebase. Ensure that your changes adhere to the project's coding standards.
+
+5. Test Your Changes: Run any relevant tests to ensure that your changes do not introduce new issues.
+
+6. Commit Your Changes: Commit your changes with a clear and concise commit message:
+
+```
+Copy code
+git commit -m "Add new feature"
+```
+
+7. Push Changes: Push your changes to your forked repository:
+
+```
+Copy code
+git push origin feature/new-feature
+```
+
+8. Create a Pull Request: Open a pull request (PR) on the original repository. Provide a clear title and description for your PR, explaining the purpose of your changes.
+
+## Code Style Guidelines
+
+Please adhere to the following guidelines when contributing to the project:
+
+- Follow the C++ coding standards and style used in the existing codebase.
+
+- Use meaningful variable and function names to enhance code readability.
+
+- Include comments in your code to explain complex sections or logic.
+
+## Reporting Issues
+
+If you encounter any issues or bugs in the project, please open an issue on the GitHub issue tracker. Provide a detailed description of the issue, steps to reproduce it, and any relevant information about your environment.
+
+## License
+
+By contributing to this project, you agree that your contributions will be licensed under the MIT License.
