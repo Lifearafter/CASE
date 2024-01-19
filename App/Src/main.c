@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
+#include "vBlinkLD2.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -60,8 +61,6 @@ static void MX_I2C1_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_TIM2_Init(void);
-
-void vBlinkLD2(void *pvParameters);
 
 /* USER CODE BEGIN PFP */
 
@@ -107,7 +106,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
-  xTaskCreate(vBlinkLD2, "vBlinkLD2", 256, NULL, 1, NULL);
 
   vTaskStartScheduler();
 
@@ -361,20 +359,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
-
-/**
- * @brief LD2 blinking task
- * @param pvParameters not used
- * @retval None
- */
-void vBlinkLD2(void *pvParameters)
-{
-  for (;;)
-  {
-    HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-    vTaskDelay(1000);
-  }
-}
 
 /**
  * @brief  Period elapsed callback in non blocking mode
