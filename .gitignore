@@ -10,6 +10,8 @@ __pycache__/
 dist/
 build/
 *.egg-info/
+*.cfg/   # auto-generated config files for openocd
+*.make
 
 # IDEs and editors
 .idea/
@@ -17,9 +19,19 @@ build/
 .mxproject
 *.pyc
 
+# STM32 specific files
+*.list
+*.hex
+*.bin
+
+# Generated files by make
+/.dep/
+/.objs/
+/*.elf
+/*.map
+
 # Miscellaneous
 *.log
 *.bak
 *.swp
 .env
-
