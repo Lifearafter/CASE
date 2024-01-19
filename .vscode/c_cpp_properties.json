@@ -9,7 +9,7 @@
         "${workspaceRoot}/Drivers/CMSIS/Include",
         "${workspaceRoot}/Drivers/CMSIS/RTOS/Template",
         "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
-        "${workspaceRoot}/Drivers/Peripherals",
+        "${workspaceRoot}/Drivers/Peripherals/Inc",
         "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include",
         "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1",
         "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include",
