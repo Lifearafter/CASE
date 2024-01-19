@@ -36,6 +36,8 @@ extern "C"
 #include "semphr.h"
 #include "event_groups.h"
 
+#include "vBlinkLD2.h"
+
   /* Private includes ----------------------------------------------------------*/
   /* USER CODE BEGIN Includes */
 
@@ -72,8 +74,14 @@ extern "C"
 #define USART_TX_GPIO_Port GPIOA
 #define USART_RX_Pin GPIO_PIN_3
 #define USART_RX_GPIO_Port GPIOA
+
+#ifndef LD2_Pin
 #define LD2_Pin GPIO_PIN_5
+#endif
+
+#ifndef LD2_GPIO_Port
 #define LD2_GPIO_Port GPIOA
+#endif
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14

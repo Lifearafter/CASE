@@ -19,7 +19,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
-#include "vBlinkLD2.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -106,6 +105,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+
+  xTaskCreate(vBlinkLD2, "BlinkLD2", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
 
   vTaskStartScheduler();
 

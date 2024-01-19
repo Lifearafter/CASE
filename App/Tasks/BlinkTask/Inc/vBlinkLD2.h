@@ -1,3 +1,6 @@
+#ifndef __VBLINKLD2_H
+#define __VBLINKLD2_H
+
 #include "FreeRTOS.h"
 #include "task.h"
 #include "timers.h"
@@ -11,3 +14,5 @@
 #define LD2_GPIO_Port GPIOA
 
 void vBlinkLD2(void *pvParameters);
+
+#endif

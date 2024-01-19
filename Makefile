@@ -37,6 +37,7 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 App/Src/main.c \
+App/Tasks/BlinkTask/Src/vBlinkLD2.c \
 Core/Src/stm32f4xx_it.c \
 Core/Src/stm32f4xx_hal_msp.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c \
@@ -133,6 +134,7 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 -IApp/Inc \
+-IApp/Tasks/BlinkTask/Inc \
 -ICore/Inc \
 -IDrivers/STM32F4xx_HAL_Driver/Inc \
 -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy \
