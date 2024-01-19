@@ -2,8 +2,11 @@
 #define __NEOM8N_DRIVER_H
 
 #include "stm32f4xx_hal.h"
-#include <string.h>
+#include "stm32f4xx_hal_spi.h"
+#include "gpio_mapping.h"
+
+
+
 
 
 #endif
-

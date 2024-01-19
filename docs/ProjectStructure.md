@@ -25,8 +25,6 @@ Project_Root/
 │   │   ├── ADXL345_Task/
 │   │   └── ...
 │   └── main.c
-├── BSP/
-├── Libraries/
 ├── Docs/
 ├── Build/
 ├── Debug/
@@ -49,11 +47,3 @@ The Middlewares directory contains the header and source files for the middlewar
 ## Application
 
 The Application directory contains the header and source files for the application. The header files are device specific, but the source files are the same for all STM32F4xx devices. The Tasks directory contains the header and source files for the tasks. The header files are device specific, but the source files are the same for all STM32F4xx devices.
-
-## BSP
-
-The BSP directory contains the header and source files for the board support package. Include files for pin mappings, clock configurations, and other board-specific settings.
-
-## Libraries
-
-The Libraries directory contains the header and source files for thrid party libraries.
