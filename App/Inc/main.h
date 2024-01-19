@@ -38,7 +38,6 @@ extern "C"
 
 /* Mapping includes*/
 #include "gpio_mapping.h"
-
 #include "vBlinkLD2.h"
 
   /* Private includes ----------------------------------------------------------*/
