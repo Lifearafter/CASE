@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceRoot}",
+        "${workspaceRoot}/Core/Inc",
+        "${workspaceRoot}/Drivers/STM32F4xx_HAL_Driver/Inc",
+        "${workspaceRoot}/Drivers/CMSIS/Include",
+        "${workspaceRoot}/Drivers/CMSIS/RTOS/Template",
+        "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "${workspaceRoot}/Drivers/Peripherals",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/machine",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/newlib-nano",
+        "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/sys",
+        "C:/msys64/mingw64/include",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+        "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+        "${workspaceFolder}/App/Inc",
+        "${workspaceFolder}/App/Tasks/Inc"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE",
+        "USE_HAL_DRIVER",
+        "STM32F446xx"
+      ],
+      "compilerPath": "C:\\Strawberry\\c\\bin\\gcc.exe",
+      "cStandard": "c17",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "windows-gcc-x64",
+      "configurationProvider": "ms-vscode.make-tools"
+    },
+    {
+      "name": "STM32",
+      "includePath": [
+        "Core/Inc",
+        "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32F4xx_HAL_Driver/Inc",
+        "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+      ],
+      "defines": ["STM32F446xx", "USE_HAL_DRIVER"],
+      "compilerPath": "C:\\USERS\\MUZAI\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\ARM-NONE-EABI-GCC\\13.2.1-1.1.1\\.CONTENT\\BIN\\ARM-NONE-EABI-GCC.EXE"
+    }
+  ],
+  "version": 4
+}
