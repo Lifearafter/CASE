@@ -106,7 +106,7 @@ int main(void)
 
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 
-  xTaskCreate(vBlinkLD2, "BlinkLD2", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+  xTaskCreate(vBlinkLD2, "BlinkLD2", configMINIMAL_STACK_SIZE, NULL, 2, NULL);
 
   vTaskStartScheduler();
 
