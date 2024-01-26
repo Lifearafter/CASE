@@ -2,22 +2,29 @@
 #define __NEOM8N_DRIVER_H
 
 #include "stm32f4xx_hal.h"
-#include "stm32f4xx_hal_spi.h"
+#include "stm32f4xx_hal_uart.h"
 #include "gpio_mapping.h"
 
-// Define SPI peripheral and GPIO pins
-#define SPIx SPI1 // Replace with the appropriate SPI peripheral
-#define SPIx_CLK_ENABLE() __HAL_RCC_SPI1_CLK_ENABLE()
-#define SPIx_GPIO_CLK_ENABLE() __HAL_RCC_GPIOA_CLK_ENABLE() // Replace with the appropriate GPIO port
-#define SPIx_SCK_PIN GPIO_PIN_5                             // Replace with the appropriate SCK pin
-#define SPIx_MISO_PIN GPIO_PIN_6                            // Replace with the appropriate MISO pin
-#define SPIx_MOSI_PIN GPIO_PIN_7                            // Replace with the appropriate MOSI pin
-#define SPIx_GPIO_PORT GPIOA                                // Replace with the appropriate GPIO port
-#define SPIx_AF GPIO_AF5_SPI1                               // Replace with the appropriate alternate function
+#define DEF_BAUDRATE 9600
+#define DEF_TIMEOUT 5000
+
+// Define USART instance
+#define USARTx USART1
+
+// Define GPIO pins used for UART
+#define USARTx_TX_PIN              GPIO_PIN_9
+#define USARTx_TX_GPIO_PORT        GPIOA
+#define USARTx_TX_GPIO_CLK_ENABLE() __HAL_RCC_GPIOA_CLK_ENABLE()
+#define USARTx_TX_AF               GPIO_AF7_USART1
+
+#define USARTx_RX_PIN              GPIO_PIN_10
+#define USARTx_RX_GPIO_PORT        GPIOA
+#define USARTx_RX_GPIO_CLK_ENABLE() __HAL_RCC_GPIOA_CLK_ENABLE()
+#define USARTx_RX_AF               GPIO_AF7_USART1
 
 // Function prototypes
-void SPI_Init(void);
-void SPI_Transmit(uint8_t data);
-uint8_t SPI_Receive(void);
+void NEOM8N_Init(void);
+void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size);
+void NEOM8N_Transmit_Uart(uint8_t *data, uint16_t size);
 
 #endif

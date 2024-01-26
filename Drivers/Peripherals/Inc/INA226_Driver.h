@@ -14,7 +14,7 @@
 #define I2Cx_AF GPIO_AF4_I2C1
 
 // INA225 Address
-#define INA226_ADDRESS 0x40 // Replace with the appropriate alternate function
+#define INA226_ADDRESS 0x44 // A0 is connected to GND, A1 is connected to VS+ (5V)
 
 // INA226 registers
 #define INA226_REG_CONFIG 0x00
