@@ -38,8 +38,8 @@ extern "C"
 
 /* Mapping includes*/
 #include "gpio_mapping.h"
-
 #include "vBlinkLD2.h"
+#include "vTelemetry.h"
 
   /* Private includes ----------------------------------------------------------*/
   /* USER CODE BEGIN Includes */
