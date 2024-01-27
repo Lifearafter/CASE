@@ -76,7 +76,8 @@
     "task.h": "c",
     "vblinkld2.h": "c",
     "event_groups.h": "c",
-    "stm32f4xx_hal_i2c.h": "c"
+    "stm32f4xx_hal_i2c.h": "c",
+    "vtelemetry.h": "c"
   },
   "cmake.sourceDirectory": "C:/Zaid/Fun_Projects_Code/CASE/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example"
 }

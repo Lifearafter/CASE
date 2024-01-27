@@ -55,10 +55,13 @@
 #define SWO_Pin GPIO_PIN_3
 #endif
 
-#ifndef SWO_GPIO_Port
 #define SWO_GPIO_Port GPIOB
-#endif
-
-
+#define I2Cx I2C1
+#define I2Cx_CLK_ENABLE() __HAL_RCC_I2C1_CLK_ENABLE()
+#define I2Cx_GPIO_CLK_ENABLE() __HAL_RCC_GPIOB_CLK_ENABLE()
+#define I2Cx_SCL_PIN GPIO_PIN_8
+#define I2Cx_SDA_PIN GPIO_PIN_9
+#define I2Cx_GPIO_PORT GPIOB
+#define I2Cx_AF GPIO_AF4_I2C1
 
 #endif

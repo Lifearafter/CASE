@@ -37,7 +37,9 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 App/Src/main.c \
+App/Src/error_handler.c \
 App/Tasks/Src/vBlinkLD2.c \
+App/Tasks/Src/vTelemetry.c \
 Core/Src/stm32f4xx_it.c \
 Core/Src/stm32f4xx_hal_msp.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c \
@@ -60,6 +62,8 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
 Drivers/Peripherals/Src/NEOM8N_Driver.c \
+Drivers/Peripherals/Src/LM75A_Driver.c \
+Drivers/Peripherals/Src/INA226_Driver.c \
 Core/Src/system_stm32f4xx.c \
 Core/Src/freertos.c \
 Core/Src/stm32f4xx_hal_timebase_tim.c \

@@ -10,6 +10,6 @@ void vBlinkLD2(void *pvParameters)
     for (;;)
     {
         HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-        vTaskDelay(1000);
+        vTaskDelay(100);
     }
 }

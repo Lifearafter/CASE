@@ -32,11 +32,10 @@ void NEOM8N_Transmit_Uart(uint8_t *data, uint16_t size)
 
 void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size)
 {
-    status = (&huart, data, size, DEF_TIMEOUT);
+    status = HAL_UART_Receive(&huart, data, size, DEF_TIMEOUT);
 
     if (status != HAL_OK)
     {
         Error_Handler();
     }
-    
 }

@@ -4,14 +4,14 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_i2c.h"
 #include "gpio_mapping.h"
+#include "error_handler.h"
 
-#define I2Cx I2C1 // Replace with the appropriate I2C peripheral
-#define I2Cx_CLK_ENABLE() __HAL_RCC_I2C1_CLK_ENABLE()
-#define I2Cx_GPIO_CLK_ENABLE() __HAL_RCC_GPIOB_CLK_ENABLE() // Replace with the appropriate GPIO port
-#define I2Cx_SCL_PIN GPIO_PIN_6                             // Replace with the appropriate SCL pin
-#define I2Cx_SDA_PIN GPIO_PIN_9                             // Replace with the appropriate SDA pin
-#define I2Cx_GPIO_PORT GPIOB                                // Replace with the appropriate GPIO port
-#define I2Cx_AF GPIO_AF4_I2C1                               // Replace with the appropriate alternate function
+
+
+#define LM75A_ADDRESS 0x48 // Replace with the appropriate device address
+#define LM75A_TEMP_REG 0x00 
+#define LM75A_CONF_REG 0x01
+
 
 // Function prototypes
 void I2C_Init(void);

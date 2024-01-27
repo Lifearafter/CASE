@@ -3,10 +3,11 @@
 // Private function prototypes
 static void I2C_GPIO_Init(void);
 
+I2C_HandleTypeDef hi2c;
+
 // Initialize I2C peripheral and GPIO pins
 void I2C_Init(void)
 {
-    I2C_HandleTypeDef hi2c;
 
     // Enable clock for I2C peripheral and GPIO port
     I2Cx_CLK_ENABLE();
@@ -36,19 +37,13 @@ void I2C_Init(void)
 // Write data to an I2C device
 HAL_StatusTypeDef I2C_Write(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size)
 {
-    // Implementation of I2C write operation
-    // ...
-
-    return HAL_OK; // Replace with actual status
+    return HAL_I2C_Master_Transmit(&hi2c, device_address, data, size, HAL_MAX_DELAY);
 }
 
 // Read data from an I2C device
 HAL_StatusTypeDef I2C_Read(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size)
 {
-    // Implementation of I2C read operation
-    // ...
-
-    return HAL_OK; // Replace with actual status
+    return HAL_I2C_Master_Receive(&hi2c, device_address, data, size, HAL_MAX_DELAY);
 }
 
 // Initialize GPIO pins for I2C
