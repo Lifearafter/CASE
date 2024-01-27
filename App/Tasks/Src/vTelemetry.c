@@ -18,7 +18,6 @@ void vTelemetryInit(void)
  */
 void vTelemetryTask(void *pvParameters)
 {
-    I2C_Init();
     xTaskCreate(vTelemetryLM75AReadTask, "LM75A Read", 128, NULL, 1, NULL);
 }
 
@@ -29,14 +28,19 @@ void vTelemetryTask(void *pvParameters)
  */
 void vTelemetryLM75AReadTask(void *pvParameters)
 {
-    I2C_Write(LM75A_ADDRESS, LM75A_CONF_REG, 0, 0);
+    LM75_Init();
+    // LM75_WriteReg(LM75A_ADDRESS, LM75_CONF_REG, 0, 0);
     uint8_t data[2];
-    float temperature;
+    volatile float temperature;
     for (;;)
     {
-        HAL_StatusTypeDef status = I2C_Read(LM75A_ADDRESS, LM75A_TEMP_REG, data, 2);
+        HAL_StatusTypeDef status = LM75_ReadReg(LM75A_ADDRESS, LM75_TEMP_REG, data, 2);
         temperature = (float)((data[0] << 8) | data[1]) / 256;
-        printf("Temperature: %f\n", temperature);
         vTaskDelay(1000);
+
+        // if (status != HAL_OK)
+        // {
+        //     Error_Handler();
+        // }
     }
 }

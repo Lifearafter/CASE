@@ -6,16 +6,17 @@
 #include "gpio_mapping.h"
 #include "error_handler.h"
 
+#define LM75_TEMP_REG 0x00  // Temperature Register
+#define LM75_CONF_REG 0x01  // Configuration Register
+#define LM75_THYST_REG 0x02 // Temperature Hysteresis Register
+#define LMS75_TOS_REG 0x03  // Over-temp Shutdown threshold Register
+#define LM75_INFO_REG 0x07  // Information Register
 
-
-#define LM75A_ADDRESS 0x48 // Replace with the appropriate device address
-#define LM75A_TEMP_REG 0x00 
-#define LM75A_CONF_REG 0x01
-
+#define LM75A_ADDRESS 0x48
 
 // Function prototypes
-void I2C_Init(void);
-HAL_StatusTypeDef I2C_Write(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size);
-HAL_StatusTypeDef I2C_Read(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size);
+void LM75_Init(void);
+HAL_StatusTypeDef LM75_ReadReg(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size);
+HAL_StatusTypeDef LM75_WriteReg(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size);
 
 #endif
