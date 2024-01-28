@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
+#include "COM_Driver.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -95,8 +96,6 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
-  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
 
   // xTaskCreate(vBlinkLD2, "Blink LD2", 128, NULL, 1, NULL);
   // xTaskCreate(vTelemetryInit, "Telemetry", 128, NULL, 1, NULL);

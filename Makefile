@@ -64,6 +64,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c \
 Drivers/Peripherals/Src/NEOM8N_Driver.c \
 Drivers/Peripherals/Src/LM75A_Driver.c \
 Drivers/Peripherals/Src/INA226_Driver.c \
+Drivers/Peripherals/Src/COM_Driver.c \
 Core/Src/system_stm32f4xx.c \
 Core/Src/freertos.c \
 Core/Src/stm32f4xx_hal_timebase_tim.c \

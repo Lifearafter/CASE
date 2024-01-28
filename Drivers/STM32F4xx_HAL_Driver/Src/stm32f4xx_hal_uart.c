@@ -1175,7 +1175,7 @@ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pD
 
         return HAL_TIMEOUT;
       }
-      if (pdata8bits == NULL)
+        if (pdata8bits == NULL)
       {
         huart->Instance->DR = (uint16_t)(*pdata16bits & 0x01FFU);
         pdata16bits++;

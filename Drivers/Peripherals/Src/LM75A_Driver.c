@@ -1,8 +1,5 @@
 #include "LM75A_Driver.h"
 
-// Private function prototypes
-static void I2C_GPIO_Init(void);
-
 I2C_HandleTypeDef hi2c;
 
 // Initialize I2C peripheral and GPIO pins
@@ -22,7 +19,11 @@ void LM75_Init(void)
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
     GPIO_InitStruct.Alternate = I2Cx_AF;
 
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+
     HAL_GPIO_Init(I2Cx_GPIO_PORT, &GPIO_InitStruct);
+
+    __HAL_RCC_I2C1_CLK_ENABLE();
 
     // I2C peripheral configuration
     hi2c.Instance = I2Cx;
