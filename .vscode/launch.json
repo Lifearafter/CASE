@@ -23,6 +23,16 @@
       "preLaunchTask": "Build STM",
       "device": "stm32f446",
       "configFiles": ["openocd.cfg"]
+    },
+    {
+      "name": "Cortex Debug",
+      "cwd": "${workspaceRoot}",
+      "executable": "./build/CASE.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "device": "STM32F446RE",
+      "configFiles": ["interface/stlink.cfg", "target/stm32f4xx.cfg"]
     }
   ]
 }
