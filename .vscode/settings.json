@@ -80,7 +80,12 @@
     "vtelemetry.h": "c",
     "lm75a_driver.h": "c",
     "stm32f4xx_hal_uart.h": "c",
-    "com_driver.h": "c"
+    "com_driver.h": "c",
+    "string": "c",
+    "stm32f4xx_hal.h": "c",
+    "main.h": "c",
+    "error_handler.h": "c",
+    "string.h": "c"
   },
   "cmake.sourceDirectory": "C:/Zaid/Fun_Projects_Code/CASE/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example"
 }

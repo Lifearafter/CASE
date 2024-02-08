@@ -1,5 +1,4 @@
 #include "vTelemetry.h"
-#pragma 1
 
 /**
  * @brief Initialize the telemetry tasks
@@ -31,16 +30,35 @@ void vTelemetryLM75AReadTask(void *pvParameters)
 {
     LM75_Init();
     COM_Init();
-    // LM75_WriteReg(LM75A_ADDRESS, LM75_CONF_REG, 0, 0);
+
     uint8_t data[2];
-    volatile float temperature;
-    char *tes;
+    float temperature;
+    char tes[32];
+
+    // Initialize the buffer with 0
+    memset(tes, 0, sizeof(tes));
+
     for (;;)
     {
-        volatile HAL_StatusTypeDef status = LM75_ReadReg(LM75A_ADDRESS, LM75_TEMP_REG, data, 2);
+        HAL_StatusTypeDef status = LM75_ReadReg(LM75_TEMP_REG, data, 2);
+
+        if (status != HAL_OK)
+        {
+
+            if (status == HAL_BUSY)
+            {
+                COM_printf("LM75A busy");
+                continue;
+            }
+            COM_printf("Error reading LM75A \n");
+            vTaskDelay(1000);
+            continue;
+        }
+
         temperature = (float)((data[0] << 8) | data[1]) / 256;
-        sprintf(tes, "%f\n", temperature);
-        COM_printf(tes);
+        float_to_char(temperature, tes);
+        COM_printf_chararray(tes, 32);
+        COM_printf("\n");
         vTaskDelay(1000);
     }
 }
