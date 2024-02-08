@@ -33,7 +33,11 @@ void vTelemetryLM75AReadTask(void *pvParameters)
 
     uint8_t data[2];
     float temperature;
-    char tes[8];
+    char tes[32];
+
+    // Initialize the buffer with 0
+    memset(tes, 0, sizeof(tes));
+
     for (;;)
     {
         HAL_StatusTypeDef status = LM75_ReadReg(LM75_TEMP_REG, data, 2);
@@ -52,8 +56,9 @@ void vTelemetryLM75AReadTask(void *pvParameters)
         }
 
         temperature = (float)((data[0] << 8) | data[1]) / 256;
-        sprintf(tes, "%f", temperature);
-        COM_printf(tes);
+        float_to_char(temperature, tes);
+        COM_printf_chararray(tes, 32);
+        COM_printf("\n");
         vTaskDelay(1000);
     }
 }

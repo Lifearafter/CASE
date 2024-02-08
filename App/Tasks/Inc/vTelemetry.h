@@ -14,7 +14,7 @@
 #include "error_handler.h"
 #include "COM_Driver.h"
 
-#include <stdio.h>
+#include <string.h>
 
 void vTelemetryInit(void);
 
