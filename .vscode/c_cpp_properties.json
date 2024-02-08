@@ -51,10 +51,7 @@
         "Middlewares/Third_Party/FreeRTOS/Source/include",
         "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
       ],
-      "defines": [
-        "STM32F446xx",
-        "USE_HAL_DRIVER"
-      ],
+      "defines": ["STM32F446xx", "USE_HAL_DRIVER"],
       "compilerPath": "C:\\USERS\\MUZAI\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\ARM-NONE-EABI-GCC\\13.2.1-1.1.1\\.CONTENT\\BIN\\ARM-NONE-EABI-GCC.EXE"
     }
   ],
