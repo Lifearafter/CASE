@@ -7,7 +7,7 @@
 #include "error_handler.h"
 
 #define DEF_BAUDRATE 9600
-#define DEF_TIMEOUT 5000
+#define DEF_TIMEOUT HAL_MAX_DELAY
 
 // Define USART instance
 #define USARTx USART1

@@ -18,7 +18,8 @@ void vTelemetryInit(void)
  */
 void vTelemetryTask(void *pvParameters)
 {
-    xTaskCreate(vTelemetryLM75AReadTask, "LM75A Read", 128, NULL, 1, NULL);
+    LM75ARead();
+    INA226Read();
 }
 
 /**
@@ -26,12 +27,14 @@ void vTelemetryTask(void *pvParameters)
  * @param pvParameters not used
  * @retval None
  */
-void vTelemetryLM75AReadTask(void *pvParameters)
+void LM75ARead()
 {
     LM75_Init();
     COM_Init();
 
     uint8_t data[2];
+    uint8_t exit_counter = 0;
+
     float temperature;
     char tes[32];
 
@@ -51,7 +54,13 @@ void vTelemetryLM75AReadTask(void *pvParameters)
                 continue;
             }
             COM_printf("Error reading LM75A \n");
-            vTaskDelay(1000);
+            exit_counter++;
+
+            if (exit_counter == 5)
+            {
+                COM_printf("LM75A not responding, exiting\n");
+                break;
+            }
             continue;
         }
 
@@ -59,6 +68,77 @@ void vTelemetryLM75AReadTask(void *pvParameters)
         float_to_char(temperature, tes);
         COM_printf_chararray(tes, 32);
         COM_printf("\n");
-        vTaskDelay(1000);
+
+        break;
+    }
+}
+
+/**
+ * @brief Read the INA226 current sensor (Current, Power, Bus Voltage)
+ * @param pvParameters not used
+ * @retval None
+ */
+void INA226Read()
+{
+    INA226_Init();
+    COM_Init();
+
+    uint8_t exit_counter = 0;
+    uint16_t data;
+    char tes[32];
+
+    float current;
+    float power;
+    float bus_voltage;
+
+    // Initialize the buffer with 0
+    memset(tes, 0, sizeof(tes));
+
+    for (;;)
+    {
+        HAL_StatusTypeDef status = readCurrent(&data);
+        current = (float)data / 1000;
+
+        HAL_StatusTypeDef status2 = readBusVoltage(&data);
+        bus_voltage = (float)data / 1000;
+
+        HAL_StatusTypeDef status3 = readPower(&data);
+        power = (float)data / 1000;
+
+        if (status != HAL_OK || status2 != HAL_OK || status3 != HAL_OK)
+        {
+
+            if (status == HAL_BUSY)
+            {
+                COM_printf("INA226 busy");
+                continue;
+            }
+            COM_printf("Error reading INA226 \n");
+
+            exit_counter++;
+            if (exit_counter == 5)
+            {
+                COM_printf("INA226 not responding, exiting\n");
+                break;
+            }
+
+            vTaskDelay(1000);
+
+            continue;
+        }
+
+        float_to_char(current, tes);
+        COM_printf_chararray(tes, 32);
+        COM_printf("\n");
+
+        float_to_char(bus_voltage, tes);
+        COM_printf_chararray(tes, 32);
+        COM_printf("\n");
+
+        float_to_char(power, tes);
+        COM_printf_chararray(tes, 32);
+        COM_printf("\n");
+
+        break;
     }
 }
