@@ -30,9 +30,13 @@ void NEOM8N_Transmit_Uart(uint8_t *data, uint16_t size)
     }
 }
 
+// Need to implement circular DMA buffer for UART to handle variable length NMEA sentences
+// https://github.com/MaJerle/stm32-usart-uart-dma-rx-tx
+// Functionality: NeoM8N sends NMEA sentences to the STM32F4 over UART. The STM32F4 receives the sentences and parses them using the minmea library.
 void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size)
 {
-    status = HAL_UART_Receive(&huart, data, size, DEF_TIMEOUT);
+    char line[MINMEA_MAX_SENTENCE_LENGTH];
+    status = HAL_UART_Receive(&huart, line, MINMEA_MAX_SENTENCE_LENGTH, DEF_TIMEOUT);
 
     if (status != HAL_OK)
     {
@@ -41,7 +45,6 @@ void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size)
 
     // Parse NMEA sentences
 
-    char line[MINMEA_MAX_SENTENCE_LENGTH];
     while (fgets(line, sizeof(line), stdin) != NULL)
     {
         switch (minmea_sentence_id(line, false))
