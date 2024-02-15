@@ -2,7 +2,7 @@
 
 static I2C_HandleTypeDef hi2c;
 
-void I2C_Init(void)
+void INA226_Init(void)
 {
     hi2c.Instance = I2Cx;
     hi2c.Init.ClockSpeed = 100000; // Adjust the clock speed as needed
@@ -28,12 +28,49 @@ void I2C_Init(void)
     HAL_I2C_Init(&hi2c);
 }
 
-HAL_StatusTypeDef I2C_Write(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size)
+HAL_StatusTypeDef readBusVoltage(uint16_t *busVoltage)
 {
-    return HAL_I2C_Mem_Write(&hi2c, device_address, register_address, I2C_MEMADD_SIZE_8BIT, data, size, HAL_MAX_DELAY);
+    uint8_t data[2];
+    HAL_StatusTypeDef status = HAL_I2C_Mem_Read(&hi2c, INA226_ADDRESS, INA260_REG_BUSVOLTAGE, I2C_MEMADD_SIZE_8BIT, data, 2, 100);
+    if (status == HAL_OK)
+    {
+        *busVoltage = (data[0] << 8) | data[1];
+    }
+    return status;
 }
 
-HAL_StatusTypeDef I2C_Read(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size)
+HAL_StatusTypeDef readCurrent(uint16_t *current)
 {
-    return HAL_I2C_Mem_Read(&hi2c, device_address, register_address, I2C_MEMADD_SIZE_8BIT, data, size, HAL_MAX_DELAY);
+    uint8_t data[2];
+    HAL_StatusTypeDef status = HAL_I2C_Mem_Read(&hi2c, INA226_ADDRESS, INA260_REG_CURRENT, I2C_MEMADD_SIZE_8BIT, data, 2, 100);
+    if (status == HAL_OK)
+    {
+        *current = (data[0] << 8) | data[1];
+    }
+    return status;
+}
+
+HAL_StatusTypeDef readPower(uint16_t *power)
+{
+    uint8_t data[2];
+    HAL_StatusTypeDef status = HAL_I2C_Mem_Read(&hi2c, INA226_ADDRESS, INA260_REG_POWER, I2C_MEMADD_SIZE_8BIT, data, 2, 100);
+    if (status == HAL_OK)
+    {
+        *power = (data[0] << 8) | data[1];
+    }
+    return status;
+}
+
+HAL_StatusTypeDef writeRegister(uint8_t register_address, uint16_t data)
+{
+    uint8_t buffer[3];
+    buffer[0] = register_address;
+    buffer[1] = (data >> 8) & 0xFF;
+    buffer[2] = data & 0xFF;
+    return HAL_I2C_Master_Transmit(&hi2c, INA226_ADDRESS, buffer, 3, 100);
+}
+
+HAL_StatusTypeDef configReset(void)
+{
+    return writeRegister(INA260_REG_CONFIG, INA260_CONFIG_RESET);
 }

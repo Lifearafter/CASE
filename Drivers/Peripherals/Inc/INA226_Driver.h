@@ -6,16 +6,8 @@
 #include "gpio_mapping.h"
 #include "error_handler.h"
 
-// #define I2Cx I2C1 // Replace with the appropriate I2C peripheral
-// #define I2Cx_CLK_ENABLE() __HAL_RCC_I2C1_CLK_ENABLE()
-// #define I2Cx_GPIO_CLK_ENABLE() __HAL_RCC_GPIOB_CLK_ENABLE() // Replace with the appropriate GPIO port
-// #define I2Cx_SCL_PIN GPIO_PIN_6                             // Replace with the appropriate SCL pin
-// #define I2Cx_SDA_PIN GPIO_PIN_9                             // Replace with the appropriate SDA pin
-// #define I2Cx_GPIO_PORT GPIOB                                // Replace with the appropriate GPIO port
-// #define I2Cx_AF GPIO_AF4_I2C1
-
 // INA225 Address
-#define INA226_ADDRESS 0x44 // A0 is connected to GND, A1 is connected to VS+ (5V)
+#define INA226_ADDRESS 0x40 << 1 // A0 is connected to GND, A1 is connected to GND default
 
 // INA226 registers
 #define INA226_REG_CONFIG 0x00
@@ -71,9 +63,23 @@
 #define INA226_CONFIG_MODE_BUS_CONT 0x0006
 #define INA226_CONFIG_MODE_SHUNT_BUS_CONT 0x0007
 
+// INA260 Register
+#define INA260_REG_CONFIG 0x00
+#define INA260_REG_CURRENT 0x01
+#define INA260_REG_BUSVOLTAGE 0x02
+#define INA260_REG_POWER 0x03
+#define INA260_REG_MASKENABLE 0x06
+
+// INA260 configuration register bits
+#define INA260_CONFIG_RESET 0x8000
+
 // Function prototypes
-void I2C_Init(void);
-HAL_StatusTypeDef I2C_Write(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size);
-HAL_StatusTypeDef I2C_Read(uint8_t device_address, uint8_t register_address, uint8_t *data, uint16_t size);
+void INA226_Init(void);
+HAL_StatusTypeDef readBusVoltage(uint16_t *bus_voltage);
+HAL_StatusTypeDef readCurrent(uint16_t *current);
+HAL_StatusTypeDef readPower(uint16_t *power);
+
+HAL_StatusTypeDef writeRegister(uint8_t register_address, uint16_t data);
+HAL_StatusTypeDef configReset(void);
 
 #endif

@@ -49,7 +49,7 @@ int main(void)
 
   // xTaskCreate(vBlinkLD2, "Blink LD2", 128, NULL, 1, NULL);
   // xTaskCreate(vTelemetryInit, "Telemetry", 128, NULL, 1, NULL);
-  vTelemetryLM75AReadTask(NULL);
+  vTelemetryTask(NULL);
   // vTaskStartScheduler();
 }
 

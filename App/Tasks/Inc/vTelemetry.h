@@ -19,7 +19,7 @@
 void vTelemetryInit(void);
 
 void vTelemetryTask(void *pvParameters);
-void vTelemetryLM75AReadTask(void *pvParameters);
-void vTelemetryINA226ReadTask(void *pvParameters);
+void LM75ARead();
+void INA226Read();
 
 #endif

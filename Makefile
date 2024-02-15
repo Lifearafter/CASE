@@ -65,6 +65,7 @@ Drivers/Peripherals/Src/NEOM8N_Driver.c \
 Drivers/Peripherals/Src/LM75A_Driver.c \
 Drivers/Peripherals/Src/INA226_Driver.c \
 Drivers/Peripherals/Src/COM_Driver.c \
+Drivers/minmea-master/minmea.c \
 Core/Src/system_stm32f4xx.c \
 Core/Src/freertos.c \
 Core/Src/stm32f4xx_hal_timebase_tim.c \
@@ -146,6 +147,8 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Device/ST/STM32F4xx/Include \
 -IDrivers/CMSIS/Include \
 -IDrivers/Peripherals/Inc \
+-IDrivers/minmea-master \
+-IDrivers/minmea-master/compat \
 -IMiddlewares/Third_Party/FreeRTOS/Source/include \
 -IMiddlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS \
 -IMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F \
@@ -173,7 +176,7 @@ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 LDSCRIPT = STM32F446RETx_FLASH.ld
 
 # libraries
-LIBS = -lc -lm -lnosys 
+LIBS = -lc -lm -lnosys  
 LIBDIR = 
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
