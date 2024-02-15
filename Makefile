@@ -65,6 +65,7 @@ Drivers/Peripherals/Src/NEOM8N_Driver.c \
 Drivers/Peripherals/Src/LM75A_Driver.c \
 Drivers/Peripherals/Src/INA226_Driver.c \
 Drivers/Peripherals/Src/COM_Driver.c \
+Drivers/Peripherals/Src/ADXL345_Driver.c \
 Drivers/minmea-master/minmea.c \
 Core/Src/system_stm32f4xx.c \
 Core/Src/freertos.c \
