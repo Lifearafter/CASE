@@ -85,7 +85,9 @@
     "stm32f4xx_hal.h": "c",
     "main.h": "c",
     "error_handler.h": "c",
-    "string.h": "c"
+    "string.h": "c",
+    "gpio_mapping.h": "c",
+    "minmea.h": "c"
   },
   "cmake.sourceDirectory": "C:/Zaid/Fun_Projects_Code/CASE/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example"
 }

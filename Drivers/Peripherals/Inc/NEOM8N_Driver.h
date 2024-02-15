@@ -3,6 +3,7 @@
 
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_uart.h"
+#include "minmea.h"
 #include "gpio_mapping.h"
 #include "error_handler.h"
 
