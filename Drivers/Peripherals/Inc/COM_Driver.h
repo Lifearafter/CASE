@@ -2,6 +2,7 @@
 #define __COM_DRIVER_H
 
 #include <string.h>
+#include <stdio.h>
 
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_uart.h"

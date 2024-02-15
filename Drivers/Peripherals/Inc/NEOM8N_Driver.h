@@ -7,6 +7,9 @@
 #include "gpio_mapping.h"
 #include "error_handler.h"
 
+#include <string.h>
+#include <stdio.h>
+
 #define DEF_BAUDRATE 9600
 #define DEF_TIMEOUT HAL_MAX_DELAY
 
