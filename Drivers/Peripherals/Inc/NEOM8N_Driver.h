@@ -39,6 +39,5 @@ typedef struct
 void NEOM8N_Init(void);
 void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size);
 void NEOM8N_Transmit_Uart(uint8_t *data, uint16_t size);
-void UART_GPIO_Init(void);
 
 #endif

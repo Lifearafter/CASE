@@ -7,25 +7,8 @@ void NEOM8N_Init(void)
 {
     GPIO_InitTypeDef GPIO_InitStruct_UART;
 
-    // Enable clock for UART and GPIO ports
-    USARTx_TX_GPIO_CLK_ENABLE();
-    USARTx_RX_GPIO_CLK_ENABLE();
+    // Enable clock for UART
     __HAL_RCC_USART1_CLK_ENABLE();
-
-    // Configure UART pins
-    GPIO_InitStruct_UART.Pin = USARTx_TX_PIN;
-    GPIO_InitStruct_UART.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct_UART.Pull = GPIO_PULLUP;
-    GPIO_InitStruct_UART.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-    GPIO_InitStruct_UART.Alternate = USARTx_TX_AF;
-    HAL_GPIO_Init(USARTx_TX_GPIO_PORT, &GPIO_InitStruct_UART);
-
-    GPIO_InitStruct_UART.Pin = USARTx_RX_PIN;
-    GPIO_InitStruct_UART.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct_UART.Pull = GPIO_PULLUP;
-    GPIO_InitStruct_UART.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
-    GPIO_InitStruct_UART.Alternate = USARTx_RX_AF;
-    HAL_GPIO_Init(USARTx_RX_GPIO_PORT, &GPIO_InitStruct_UART);
 
     huart.Instance = USARTx;
     huart.Init.BaudRate = DEF_BAUDRATE;
@@ -70,8 +53,7 @@ void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size)
     }
 
     // Parse NMEA sentences
-    while (fgets(line.buffer, sizeof(line), stdin) != NULL)
-    {
+    while (HAL_UARTEx_ReceiveToIdle_DMA(&huart, line.buffer, MINMEA_MAX_SENTENCE_LENGTH) == HAL_OK)
         if (line.buffer[counter] != '$')
         {
             if (counter < MINMEA_MAX_SENTENCE_LENGTH)
@@ -84,8 +66,7 @@ void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size)
             }
             continue;
         }
-        parse_buffer(&line);
-    }
+    parse_buffer(&line);
 }
 
 void parse_buffer(circ_bbuf_t *line)
