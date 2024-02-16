@@ -33,6 +33,7 @@ void ADXL345_Init(void)
     HAL_GPIO_WritePin(spi.csPort, spi.csPin, GPIO_PIN_SET);
 }
 
+// Read from the ADXL345: send the register address and read the data
 HAL_StatusTypeDef ADXL345_ReadReg(uint8_t register_address, uint8_t *data, uint16_t size)
 {
     // Check if the device is ready
@@ -58,6 +59,7 @@ HAL_StatusTypeDef ADXL345_ReadReg(uint8_t register_address, uint8_t *data, uint1
     return HAL_OK;
 }
 
+// ADXL345_WriteReg: Write data to a register
 HAL_StatusTypeDef ADXL345_WriteReg(uint8_t register_address, uint8_t *data, uint16_t size)
 {
     // Check if the device is ready
@@ -81,4 +83,55 @@ HAL_StatusTypeDef ADXL345_WriteReg(uint8_t register_address, uint8_t *data, uint
     HAL_GPIO_WritePin(spi.csPort, spi.csPin, GPIO_PIN_SET);
 
     return HAL_OK;
+}
+
+// Initial Configuration of the ADXL345
+void ADXL345_Config(void)
+{
+    if (ADXL345_Check() != HAL_OK)
+    {
+        Error_Handler();
+    }
+    uint8_t value = 0;
+    // Set the range to +/- 16g
+    ADXL345_SetRange(ADXL345_RANGE_16G);
+    // Put the ADXL345 into Measurement Mode by writing 0x08 to the POWER_CTL register
+    value = 0x08;
+    ADXL345_WriteReg(ADXL345_REG_POWER_CTL, &value, 1);
+}
+
+// Check if the ADXL345 is present
+HAL_StatusTypeDef ADXL345_Check(void)
+{
+    uint8_t value;
+    if (ADXL345_ReadReg(ADXL345_REG_DEVID, &value, 1) != HAL_OK)
+    {
+        return HAL_ERROR;
+    }
+    if (value != 0xE5)
+    {
+        return HAL_ERROR;
+    }
+    return HAL_OK;
+}
+
+// Set the range of the ADXL345 to range (0x00 = +/- 2g, 0x01 = +/- 4g, 0x02 = +/- 8g, 0x03 = +/- 16g)
+void ADXL345_SetRange(uint8_t range)
+{
+    uint8_t value = 0;
+    ADXL345_ReadReg(ADXL345_REG_DATA_FORMAT, &value, 1);
+    value &= ~0x0F;
+    value |= range;
+    value |= 0x08;
+    ADXL345_WriteReg(ADXL345_REG_DATA_FORMAT, &value, 1);
+}
+
+// Read the X, Y, and Z acceleration values
+void ADXL345_ReadAccel(int16_t *x, int16_t *y, int16_t *z)
+{
+    uint8_t data[6];
+    ADXL345_ReadReg(ADXL345_REG_DATAX0, data, 6);
+    *x = (int16_t)(data[1] << 8 | data[0]);
+    *y = (int16_t)(data[3] << 8 | data[2]);
+    *z = (int16_t)(data[5] << 8 | data[4]);
 }
