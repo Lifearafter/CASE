@@ -17,9 +17,13 @@
 #include <string.h>
 
 void vTelemetryInit(void);
-
 void vTelemetryTask(void *pvParameters);
+
 void LM75ARead();
 void INA226Read();
+void NEOM8NRead();
+void ADXL345Read();
+void IAM20685Read();
+void LIS3MDLRead();
 
 #endif

@@ -49,8 +49,8 @@ int main(void)
 
   // xTaskCreate(vBlinkLD2, "Blink LD2", 128, NULL, 1, NULL);
   // xTaskCreate(vTelemetryInit, "Telemetry", 128, NULL, 1, NULL);
-  vTelemetryTask(NULL);
-  // vTaskStartScheduler();
+  vTelemetryInit();
+  vTaskStartScheduler();
 }
 
 /**

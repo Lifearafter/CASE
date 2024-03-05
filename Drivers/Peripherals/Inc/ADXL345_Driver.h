@@ -55,10 +55,10 @@ struct SPI_Module
 
 // Function prototypes
 void ADXL345_Init(void);
-HAL_StatusTypeDef ADXL345_Check(void);
 HAL_StatusTypeDef ADXL345_ReadReg(uint8_t register_address, uint8_t *data, uint16_t size);
 HAL_StatusTypeDef ADXL345_WriteReg(uint8_t register_address, uint8_t *data, uint16_t size);
 
+HAL_StatusTypeDef ADXL345_Check(void);
 void ADXL345_Config(void);
 void ADXL345_SetRange(uint8_t range);
 void ADXL345_ReadAccel(int16_t *x, int16_t *y, int16_t *z);

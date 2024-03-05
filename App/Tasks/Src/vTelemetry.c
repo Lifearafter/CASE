@@ -18,7 +18,7 @@ void vTelemetryInit(void)
  */
 void vTelemetryTask(void *pvParameters)
 {
-    LM75ARead();
+    // LM75ARead();
     INA226Read();
 }
 
