@@ -27,7 +27,7 @@ void COM_Init(void)
  */
 void COM_printf(char *str)
 {
-    if (HAL_UART_Transmit(&uart_handle, (uint8_t *)str, 32, HAL_MAX_DELAY) != HAL_OK)
+    if (HAL_UART_Transmit(&uart_handle, (uint8_t *)str, strlen((char *)str), HAL_MAX_DELAY) != HAL_OK)
     {
         Error_Handler();
     }
@@ -54,31 +54,37 @@ void COM_printf_chararray(char *str, uint16_t size)
  */
 char float_to_char(float x, char *p)
 {
-    char *s = p + CHAR_BUFF_SIZE; // go to end of buffer
-    uint16_t decimals;            // variable to store the decimals
-    int units;                    // variable to store the units (part to left of decimal place)
+    char *s = p + CHAR_BUFF_SIZE; // Go to end of buffer
+    int units;
+    int decimals;
+
     if (x < 0)
-    {                                     // take care of negative numbers
-        decimals = (int)(x * -100) % 100; // make 1000 for 3 decimals etc.
+    {
+        decimals = (int)(x * -100000) % 100000; // Adjust for 5 decimal places
         units = (int)(-1 * x);
     }
     else
-    { // positive numbers
-        decimals = (int)(x * 100) % 100;
+    {
+        decimals = (int)(x * 100000) % 100000;
         units = (int)x;
     }
 
-    *--s = (decimals % 10) + '0';
-    decimals /= 10; // repeat for as many decimal places as you need
-    *--s = (decimals % 10) + '0';
-    *--s = '.';
+    // Convert decimal part to string with leading zeros if necessary
+    for (int i = 0; i < 5; i++)
+    {
+        *--s = (decimals % 10) + '0';
+        decimals /= 10;
+    }
+    *--s = '.'; // Decimal point
 
-    while (units > 0)
+    // Convert integer part to string
+    do
     {
         *--s = (units % 10) + '0';
         units /= 10;
-    }
+    } while (units > 0);
+
     if (x < 0)
-        *--s = '-'; // unary minus sign for negative numbers
+        *--s = '-'; // Unary minus sign for negative numbers
     return s;
 }
