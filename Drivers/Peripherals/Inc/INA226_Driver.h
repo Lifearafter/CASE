@@ -73,8 +73,15 @@
 // INA260 configuration register bits
 #define INA260_CONFIG_RESET 0x8000
 
+// Macros
+#define CURRENT_LSB 1.25         // 1.25mA/LSB
+#define POWER_LSB 10             // 10mW/LSB
+#define CALIBRATION_VALUE 0x2000 // 0x2000 is the default value for the calibration register
+#define BUS_VOLTAGE_LSB 1.25     // 1.25mV/LSB
+
 // Function prototypes
 void INA226_Init(void);
+HAL_StatusTypeDef INA226_present(void);
 HAL_StatusTypeDef readBusVoltage(uint16_t *bus_voltage);
 HAL_StatusTypeDef readCurrent(uint16_t *current);
 HAL_StatusTypeDef readPower(uint16_t *power);

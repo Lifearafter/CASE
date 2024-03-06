@@ -43,14 +43,13 @@ int main(void)
 {
   HAL_Init();
   SystemClock_Config();
-  // MX_GPIO_Init();
 
   // Task Creation and Scheduling
 
   // xTaskCreate(vBlinkLD2, "Blink LD2", 128, NULL, 1, NULL);
   // xTaskCreate(vTelemetryInit, "Telemetry", 128, NULL, 1, NULL);
-  vTelemetryTask(NULL);
-  // vTaskStartScheduler();
+  vTelemetryInit();
+  vTaskStartScheduler();
 }
 
 /**

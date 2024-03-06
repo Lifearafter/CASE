@@ -68,13 +68,8 @@ HAL_StatusTypeDef LM75_ReadReg(uint8_t register_address, uint8_t *data, uint16_t
     HAL_StatusTypeDef status = HAL_I2C_IsDeviceReady(&hi2c, LM75A_ADDRESS, 10, HAL_MAX_DELAY);
     if (status != HAL_OK)
     {
-        // if (status == HAL_BUSY)
-        // {
-        //     I2C_ClearBusyFlagErratum(&hi2c);
-        // }'
         return HAL_ERROR;
     }
 
     return HAL_I2C_Master_Receive(&hi2c, LM75A_ADDRESS, data, size, HAL_MAX_DELAY);
 }
-

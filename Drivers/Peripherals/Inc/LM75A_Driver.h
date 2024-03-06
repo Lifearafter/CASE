@@ -15,15 +15,14 @@
 #define LMS75_TOS_REG 0x03  // Over-temp Shutdown threshold Register
 #define LM75_INFO_REG 0x07  // Information Register
 
-#define LM75_CONF_SHUTDOWN 0x01 // Shutdown mode
+#define LM75_CONF_SHUTDOWN 0x01    // Shutdown mode
 #define LM75_CONF_OS_COMP_INT 0x02 // OS polarity
-#define LM75_CONF_OS_POL 0x04 // OS polarity
-#define LM75_CONF_OS_F_QUE 0x18 // OS fault queue
-#define LM75_CONF_OS_F_QUE_1 0x00 // OS fault queue = 1
-#define LM75_CONF_OS_F_QUE_2 0x08 // OS fault queue = 2
-#define LM75_CONF_OS_F_QUE_4 0x10 // OS fault queue = 4
-#define LM75_CONF_OS_F_QUE_6 0x18 // OS fault queue = 6
-
+#define LM75_CONF_OS_POL 0x04      // OS polarity
+#define LM75_CONF_OS_F_QUE 0x18    // OS fault queue
+#define LM75_CONF_OS_F_QUE_1 0x00  // OS fault queue = 1
+#define LM75_CONF_OS_F_QUE_2 0x08  // OS fault queue = 2
+#define LM75_CONF_OS_F_QUE_4 0x10  // OS fault queue = 4
+#define LM75_CONF_OS_F_QUE_6 0x18  // OS fault queue = 6
 
 #define LM75A_ADDRESS 0x48 << 1 // LM75A address
 

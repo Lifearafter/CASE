@@ -12,6 +12,11 @@ Project_Root/
 │   └── Startup/
 ├── Drivers/
 │   ├── STM32xxxx_HAL_Driver/
+│   ├── Peripherals/
+│   │   ├── GPS_Driver/
+│   │   ├── LM75A_Driver/
+│   │   ├── INA225_Driver/
+│   │   ├── ADXL345_Driver/
 │   └── ...
 ├── Middlewares/
 │   └── FreeRTOS/
@@ -19,10 +24,8 @@ Project_Root/
 │   ├── Inc/
 │   ├── Src/
 │   ├── Tasks/
-│   │   ├── GPS_Task/
-│   │   ├── LM75A_Task/
-│   │   ├── INA225_Task/
-│   │   ├── ADXL345_Task/
+│   │   ├── vReadGPS/
+│   │   ├── vTelemetry/
 │   │   └── ...
 │   └── main.c
 ├── Docs/
