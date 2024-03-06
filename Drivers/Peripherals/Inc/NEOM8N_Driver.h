@@ -11,6 +11,7 @@
 #include <stdio.h>
 
 #define DEF_BAUDRATE 9600
+#define CIRCULAR_BUFFER_SIZE 256
 #define DEF_TIMEOUT HAL_MAX_DELAY
 
 // Define USART instance

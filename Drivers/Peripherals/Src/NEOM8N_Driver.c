@@ -1,7 +1,11 @@
 #include "NEOM8N_Driver.h"
 
 UART_HandleTypeDef huart;
-HAL_StatusTypeDef status;
+DMA_HandleTypeDef hdma_usart1_rx;
+
+uint8_t circularBuffer[CIRCULAR_BUFFER_SIZE];
+uint16_t bufferHead = 0;
+uint16_t bufferTail = 0;
 
 void NEOM8N_Init(void)
 {
@@ -19,6 +23,37 @@ void NEOM8N_Init(void)
     huart.Init.HwFlowCtl = UART_HWCONTROL_NONE;
     huart.Init.OverSampling = UART_OVERSAMPLING_16;
 
+    /* DMA controller clock enable */
+    __HAL_RCC_DMA2_CLK_ENABLE();
+
+    /* DMA interrupt init */
+    /* DMA2_Stream5_IRQn interrupt configuration */
+    HAL_NVIC_SetPriority(DMA2_Stream5_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(DMA2_Stream5_IRQn);
+
+    /* Configure the DMA stream for UART reception */
+    hdma_usart1_rx.Instance = DMA2_Stream5;
+    hdma_usart1_rx.Init.Channel = DMA_CHANNEL_4;
+    hdma_usart1_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
+    hdma_usart1_rx.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_usart1_rx.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_usart1_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
+    hdma_usart1_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
+    hdma_usart1_rx.Init.Mode = DMA_CIRCULAR;
+    hdma_usart1_rx.Init.Priority = DMA_PRIORITY_LOW;
+    hdma_usart1_rx.Init.FIFOMode = DMA_FIFOMODE_DISABLE;
+    if (HAL_DMA_Init(&hdma_usart1_rx) != HAL_OK)
+    {
+        Error_Handler();
+    }
+
+    /* Associate the DMA handle with the UART handle */
+    __HAL_LINKDMA(&huart, hdmarx, hdma_usart1_rx);
+
+    /* Configure the NVIC for DMA transfer complete interrupt */
+    HAL_NVIC_SetPriority(DMA2_Stream5_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(DMA2_Stream5_IRQn);
+
     if (HAL_UART_Init(&huart) != HAL_OK)
     {
         Error_Handler();
@@ -27,6 +62,7 @@ void NEOM8N_Init(void)
 
 void NEOM8N_Transmit_Uart(uint8_t *data, uint16_t size)
 {
+    HAL_StatusTypeDef status;
     status = HAL_UART_Transmit(&huart, data, size, DEF_TIMEOUT);
 
     if (status != HAL_OK)
@@ -40,33 +76,53 @@ void NEOM8N_Transmit_Uart(uint8_t *data, uint16_t size)
 // Functionality: NeoM8N sends NMEA sentences to the STM32F4 over UART. The STM32F4 receives the sentences and parses them using the minmea library.
 void NEOM8N_Receive_Uart(uint8_t *data, uint16_t size)
 {
+    static uint8_t buffer[MINMEA_MAX_SENTENCE_LENGTH];
+    static uint16_t bufferIndex = 0;
 
-    circ_bbuf_t line;
-    uint8_t counter = 0;
+    // Receive data until an idle line is detected
+    HAL_StatusTypeDef status = HAL_UARTEx_ReceiveToIdle_DMA(&huart, buffer, MINMEA_MAX_SENTENCE_LENGTH);
 
-    // Initialize UART
-    status = HAL_UARTEx_ReceiveToIdle_DMA(&huart, line.buffer, MINMEA_MAX_SENTENCE_LENGTH);
-
-    if (status != HAL_OK)
+    if (status == HAL_OK)
     {
-        Error_Handler();
+        // Null-terminate the buffer
+        buffer[bufferIndex] = '\0';
+
+        // Parse the NMEA sentence
+        if (buffer[0] == '$')
+        {
+            parse_buffer(buffer);
+        }
+
+        // Reset the buffer index
+        bufferIndex = 0;
+    }
+    else
+    {
+        Error_Handler(); // Handle other errors
     }
 
-    // Parse NMEA sentences
-    while (HAL_UARTEx_ReceiveToIdle_DMA(&huart, line.buffer, MINMEA_MAX_SENTENCE_LENGTH) == HAL_OK)
-        if (line.buffer[counter] != '$')
+    // Restart the DMA transfer for the next sentence
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart, buffer, MINMEA_MAX_SENTENCE_LENGTH);
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1) // Check if it's the UART instance you're using
+    {
+        // Process the received data in the circular buffer
+        uint16_t dataCount = CIRCULAR_BUFFER_SIZE - hdma_usart1_rx.Instance->NDTR;
+        uint16_t nextHead = (bufferHead + dataCount) % CIRCULAR_BUFFER_SIZE;
+
+        // Check for buffer overflow
+        if (nextHead == bufferTail)
         {
-            if (counter < MINMEA_MAX_SENTENCE_LENGTH)
-            {
-                counter++;
-            }
-            else
-            {
-                break;
-            }
-            continue;
+            // Handle buffer overflow
         }
-    parse_buffer(&line);
+        else
+        {
+            bufferHead = nextHead;
+        }
+    }
 }
 
 void parse_buffer(circ_bbuf_t *line)

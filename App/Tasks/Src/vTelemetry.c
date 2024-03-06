@@ -18,8 +18,9 @@ void vTelemetryInit(void)
  */
 void vTelemetryTask(void *pvParameters)
 {
-    // LM75ARead();
     INA226Read();
+    LM75ARead();
+    vTaskDelete(NULL);
 }
 
 /**
@@ -66,6 +67,7 @@ void LM75ARead()
 
         temperature = (float)((data[0] << 8) | data[1]) / 256;
         float_to_char(temperature, tes);
+        COM_printf("Temperature: ");
         COM_printf_chararray(tes, 32);
         COM_printf("\n");
 
@@ -93,6 +95,12 @@ void INA226Read()
 
     // Initialize the buffer with 0
     memset(tes, 0, sizeof(tes));
+
+    if (INA226_present() != HAL_OK)
+    {
+        COM_printf("INA226 not present\n");
+        return;
+    }
 
     for (;;)
     {
@@ -128,14 +136,17 @@ void INA226Read()
         }
 
         float_to_char(current, tes);
+        COM_printf("Current: ");
         COM_printf_chararray(tes, 32);
         COM_printf("\n");
 
         float_to_char(bus_voltage, tes);
+        COM_printf("Bus Voltage: ");
         COM_printf_chararray(tes, 32);
         COM_printf("\n");
 
         float_to_char(power, tes);
+        COM_printf("Power: ");
         COM_printf_chararray(tes, 32);
         COM_printf("\n");
 

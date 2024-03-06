@@ -36,6 +36,13 @@ void INA226_Init(void)
     HAL_I2C_Init(&hi2c);
 }
 
+HAL_StatusTypeDef INA226_present(void)
+{
+    uint8_t data[2];
+    HAL_StatusTypeDef status = HAL_I2C_Mem_Read(&hi2c, INA226_ADDRESS, INA260_REG_CONFIG, I2C_MEMADD_SIZE_8BIT, data, 2, 100);
+    return status;
+}
+
 HAL_StatusTypeDef readBusVoltage(uint16_t *busVoltage)
 {
     uint8_t data[2];

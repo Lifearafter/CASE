@@ -81,6 +81,7 @@
 
 // Function prototypes
 void INA226_Init(void);
+HAL_StatusTypeDef INA226_present(void);
 HAL_StatusTypeDef readBusVoltage(uint16_t *bus_voltage);
 HAL_StatusTypeDef readCurrent(uint16_t *current);
 HAL_StatusTypeDef readPower(uint16_t *power);
