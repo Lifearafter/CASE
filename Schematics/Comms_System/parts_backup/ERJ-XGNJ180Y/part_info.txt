@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERJ-XGNJ180Y
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2021-09-30 14:05:11
+Downloaded=2024-01-28 06:42:45
+3D=Y

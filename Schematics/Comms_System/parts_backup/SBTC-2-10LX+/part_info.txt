@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=SBTC-2-10LX+
+PartCategory=Filter
+PackageCategory=Other
+PinCount=5
+Version=1.3
+Released=2020-05-06 10:27:13
+Downloaded=2024-01-21 02:42:17
+3D=Y

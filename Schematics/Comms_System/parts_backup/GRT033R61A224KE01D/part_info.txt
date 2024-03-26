@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRT033R61A224KE01D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2019-10-01 09:24:05
+Downloaded=2024-01-26 17:35:43
+3D=Y

@@ -1,0 +1,18 @@
+.B82496C3829J :1 ;SMT Inductors 8.2nH +/-5%
+INDC1608X90N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B82496C3829J
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B82496C3829J)
+~!Mouser Part Number (871-B82496C3829J)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (-)
+~!Height (-)
+~!3D_Model (B82496C3829J)
+B82496C3829J
+1.1!U 2.1!U 

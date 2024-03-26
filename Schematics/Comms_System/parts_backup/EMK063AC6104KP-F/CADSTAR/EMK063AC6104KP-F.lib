@@ -1,0 +1,18 @@
+.EMK063AC6104KP-F :1 ;Taiyo Yuden EMK063AC6104KP-F 100nF MLCC 16V dc +/-10% Tolerance SMD
+CAPC0603X35N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN EMK063AC6104KP-F
+~!Manufacturer_Name (TAIYO YUDEN)
+~!Manufacturer_Part_Number (EMK063AC6104KP-F)
+~!Mouser Part Number (963-EMK063AC6104KP-F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK063AC6104KP-F?qs=lkMpTOwszhcTE%2Fgkbwhe%2FA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://ds.yuden.co.jp/TYCOMPAS/ap/detail?pn=EMK063AC6104KP-F&u=M)
+~!Height (0.35mm)
+~!3D_Model (EMK063AC6104KP-F)
+EMK063AC6104KP-F
+1.1!U 2.1!U 

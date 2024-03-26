@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=AC0402JRNPO9BN390
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2022-02-15 07:21:04
+Downloaded=2024-01-26 18:02:22
+3D=Y

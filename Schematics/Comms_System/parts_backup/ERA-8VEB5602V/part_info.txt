@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERA-8VEB5602V
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2022-08-08 12:17:38
+Downloaded=2024-01-28 06:41:27
+3D=Y

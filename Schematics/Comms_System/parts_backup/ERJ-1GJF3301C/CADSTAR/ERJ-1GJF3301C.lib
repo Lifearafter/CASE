@@ -1,0 +1,18 @@
+.ERJ-1GJF3301C :1 ;Series/Type: Precision Thick Film Chip Resistors, Power Rating (W): 0.05, Chip Size (LxW(EIA)) (mm): 0.6 x 0.3 (EIA:0201), Resistance Values (): 3300, Resistance Tolerance (%): 1, T.C.R (10/K): +/-200
+ERJ1GJJ2R4C
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ERJ-1GJF3301C
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ERJ-1GJF3301C)
+~!Mouser Part Number (667-ERJ-1GJF3301C)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-1GJF3301C?qs=OcgtsXO%252B3gv0JuBIv%2FKHHg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf)
+~!Height (0.26mm)
+~!3D_Model (ERJ-1GJF3301C)
+ERJ-1GJF3301C
+1.1!U 2.1!U 

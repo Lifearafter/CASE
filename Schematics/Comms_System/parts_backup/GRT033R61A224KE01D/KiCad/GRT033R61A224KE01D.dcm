@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRT033R61A224KE01D
+D Capacitor GRT03 L=0.6mm W=0.3mm T=0.3mm
+K
+F https://psearch.en.murata.com/capacitor/product/GRT033R61A224KE01%23.html
+$ENDCMP
+#
+#End Doc Library

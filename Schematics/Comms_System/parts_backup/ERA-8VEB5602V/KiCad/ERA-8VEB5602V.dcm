@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERA-8VEB5602V
+D Series/Type: Thin Film Chip Resistors, High Stability and Reliability Type, Power Rating (W): 0.25, Chip Size (LxW(EIA)) (mm): 3.2 x 1.6 (EIA:1206), Resistance Values (): 56000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf
+$ENDCMP
+#
+#End Doc Library

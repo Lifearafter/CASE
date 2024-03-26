@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRM0335C1H6R2DA01D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2023-03-07 09:31:34
+Downloaded=2024-01-26 18:11:39
+3D=Y

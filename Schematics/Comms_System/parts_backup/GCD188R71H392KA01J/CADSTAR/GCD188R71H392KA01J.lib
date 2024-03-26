@@ -1,0 +1,18 @@
+.GCD188R71H392KA01J :1 ;Capacitor GCD18 L=1.6mm W=0.8mm T=0.8mm
+CAPC1608X90N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GCD188R71H392KA01J
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GCD188R71H392KA01J)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://psearch.en.murata.com/capacitor/product/GCD188R71H392KA01%23.html)
+~!Height (0.9mm)
+~!3D_Model (GCD188R71H392KA01J)
+GCD188R71H392KA01J
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=LQP03TN15NH02D
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.3
+Released=2019-01-31 07:31:45
+Downloaded=2024-01-26 22:19:21
+3D=Y

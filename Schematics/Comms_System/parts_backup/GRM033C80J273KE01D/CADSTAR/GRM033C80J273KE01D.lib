@@ -1,0 +1,18 @@
+.GRM033C80J273KE01D :1 ;MURATA - GRM033C80J273KE01D - SMD Multilayer Ceramic Capacitor, 27000 pF, 6.3 V, 0201 [0603 Metric], +/- 10%, X6S, GRM Series
+CAPC0603X33N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GRM033C80J273KE01D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GRM033C80J273KE01D)
+~!Mouser Part Number (81-GRM033C80J273KE1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033C80J273KE01D?qs=eHmNfHpZo0THASikt5urEw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf)
+~!Height (0.33mm)
+~!3D_Model (GRM033C80J273KE01D)
+GRM033C80J273KE01D
+1.1!U 2.1!U 

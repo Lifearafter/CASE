@@ -1,0 +1,18 @@
+.LQG15WH3N0B02D :1 ;LQG15WH_02 Series Inductor 3.0nH +/-0.1nH 0402 (1005)
+LQW15CNR20J00B
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN LQG15WH3N0B02D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (LQG15WH3N0B02D)
+~!Mouser Part Number (81-LQG15WH3N0B02D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQG15WH3N0B02D?qs=d0WKAl%252BL4Kb3FAa6%252BDKpBw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://psearch.en.murata.com/inductor/product/LQG15WH3N0B02%23.html)
+~!Height (0.6mm)
+~!3D_Model (LQG15WH3N0B02D)
+LQG15WH3N0B02D
+1.1!U 2.1!U 

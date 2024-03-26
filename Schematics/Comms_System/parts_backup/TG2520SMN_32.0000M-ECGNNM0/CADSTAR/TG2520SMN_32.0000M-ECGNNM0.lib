@@ -1,0 +1,18 @@
+.TG2520SMN_32.0000M-ECGNNM0 :1 ;TCXO Oscillators TG2520SMN 32.0000M-ECGNNM0: TCXO 1.8V 0.5PPM -40 85C NON O/E 1K TR
+TG2520SMN320000MECGNNM0
+*STM Y
+*NGS
+*PLB 1="N.C." 2="GND" 3="OUT" 4="VCC"
+*MXP 4
+*DFN TG2520SMN_32.0000M-ECGNNM0
+~!Manufacturer_Name (Epson Timing)
+~!Manufacturer_Part_Number (TG2520SMN 32.0000M-ECGNNM0)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en)
+~!Height (0.8mm)
+~!3D_Model (TG2520SMN_32.0000M-ECGNNM0)
+TG2520SMN_32.0000M-ECGNNM0
+1.1!U 2.1!U 3.1!U 4.1!U 

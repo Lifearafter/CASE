@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model C0603C200K8HACTU
+#/12860013/1065401/2.50/2/2/Capacitor
+DEF C0603C200K8HACTU C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0603C200K8HACTU" 350 150 50 H V L CNN
+F2 "C0603" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1007_X8R_ULTRA_150C_SMD.pdf" 350 -50 50 H I L CNN
+F4 "SMD Comm X8R HT150C, Ceramic, 20 pF, 10%, 10 VDC, 25 VDC, 150C, -55C, X8R, SMD, MLCC, High Temperature, Ultra-Stable, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "KEMET" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "C0603C200K8HACTU" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-C0603C200K8HACTU" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C200K8HACTU?qs=W0yvOO0ixfG41DXbAfv7cA%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

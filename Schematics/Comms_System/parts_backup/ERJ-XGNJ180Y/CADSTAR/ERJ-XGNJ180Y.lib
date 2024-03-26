@@ -1,0 +1,18 @@
+.ERJ-XGNJ180Y :1 ;Thick Film Chip Resistor, 0201, 0.05W
+ERJXG__01005_
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ERJ-XGNJ180Y
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ERJ-XGNJ180Y)
+~!Mouser Part Number (667-ERJ-XGNJ180Y)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-XGNJ180Y?qs=9gtMhpKs0nFk3pYNjHEbcQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf)
+~!Height (0.15mm)
+~!3D_Model (ERJ-XGNJ180Y)
+ERJ-XGNJ180Y
+1.1!U 2.1!U 

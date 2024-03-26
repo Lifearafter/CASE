@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TG2520SMN_32.0000M-ECGNNM0
+#/17096567/1065401/2.50/4/3/Crystal or Oscillator
+DEF TG2520SMN_32.0000M-ECGNNM0 Y 0 30 Y Y 1 F N
+F0 "Y" 950 300 50 H V L CNN
+F1 "TG2520SMN_32.0000M-ECGNNM0" 950 200 50 H V L CNN
+F2 "TG2520SMN320000MECGNNM0" 950 100 50 H I L CNN
+F3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en" 950 0 50 H I L CNN
+F4 "TCXO Oscillators TG2520SMN 32.0000M-ECGNNM0: TCXO 1.8V 0.5PPM -40 85C NON O/E 1K TR" 950 -100 50 H I L CNN "Description"
+F5 "0.8" 950 -200 50 H I L CNN "Height"
+F6 "Epson Timing" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TG2520SMN 32.0000M-ECGNNM0" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X N.C. 1 0 -100 200 R 50 50 0 0 N
+X GND 2 1100 -100 200 L 50 50 0 0 P
+X OUT 3 1100 0 200 L 50 50 0 0 P
+X VCC 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

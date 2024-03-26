@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M22-6003005
+D PC / 104 Connectors 2mm 30P STACKTHRU GOLD
+K
+F https://cdn.harwin.com/pdfs/M22-600.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.AC0402JRNPO9BN390 :1 ;Multilayer Ceramic Capacitors MLCC - SMD/SMT 39pF 5% 50V AEC-Q200
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN AC0402JRNPO9BN390
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (AC0402JRNPO9BN390)
+~!Mouser Part Number (603-AC0402JRNP9BN390)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=603-AC0402JRNP9BN390)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/AC0402JRNPO9BN390.pdf)
+~!Height (0.55mm)
+~!3D_Model (AC0402JRNPO9BN390)
+AC0402JRNPO9BN390
+1.1!U 2.1!U 

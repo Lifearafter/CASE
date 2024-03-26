@@ -1,0 +1,18 @@
+.C0603C200K8HACTU :1 ;SMD Comm X8R HT150C, Ceramic, 20 pF, 10%, 10 VDC, 25 VDC, 150C, -55C, X8R, SMD, MLCC, High Temperature, Ultra-Stable, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks
+C0603
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C0603C200K8HACTU
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (C0603C200K8HACTU)
+~!Mouser Part Number (80-C0603C200K8HACTU)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/C0603C200K8HACTU?qs=W0yvOO0ixfG41DXbAfv7cA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_C1007_X8R_ULTRA_150C_SMD.pdf)
+~!Height (0.87mm)
+~!3D_Model (C0603C200K8HACTU)
+C0603C200K8HACTU
+1.1!U 2.1!U 

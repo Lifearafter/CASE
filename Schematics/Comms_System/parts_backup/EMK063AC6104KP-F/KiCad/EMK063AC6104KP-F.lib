@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EMK063AC6104KP-F
+#/876500/1065401/2.50/2/3/Capacitor
+DEF EMK063AC6104KP-F C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EMK063AC6104KP-F" 350 150 50 H V L CNN
+F2 "CAPC0603X35N" 350 50 50 H I L CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ap/detail?pn=EMK063AC6104KP-F&u=M" 350 -50 50 H I L CNN
+F4 "Taiyo Yuden EMK063AC6104KP-F 100nF MLCC 16V dc +/-10% Tolerance SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.35" 350 -250 50 H I L CNN "Height"
+F6 "TAIYO YUDEN" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EMK063AC6104KP-F" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "963-EMK063AC6104KP-F" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/EMK063AC6104KP-F?qs=lkMpTOwszhcTE%2Fgkbwhe%2FA%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

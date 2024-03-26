@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERJ-XGNJ180Y
+D Thick Film Chip Resistor, 0201, 0.05W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf
+$ENDCMP
+#
+#End Doc Library

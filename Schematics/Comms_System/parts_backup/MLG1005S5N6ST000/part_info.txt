@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=MLG1005S5N6ST000
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2021-06-22 21:33:45
+Downloaded=2024-01-26 20:30:13
+3D=Y

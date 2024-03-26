@@ -1,0 +1,9 @@
+Manufacturer=Epson Timing
+PartNumber=TG2520SMN 32.0000M-ECGNNM0
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2022-11-02 03:10:35
+Downloaded=2024-01-21 02:23:33
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C0201C560J3GACTU
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=4.1
+Released=2022-02-23 09:02:53
+Downloaded=2024-01-26 18:14:56
+3D=Y
