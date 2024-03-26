@@ -1,0 +1,18 @@
+.ERA-8VEB5602V :1 ;Series/Type: Thin Film Chip Resistors, High Stability and Reliability Type, Power Rating (W): 0.25, Chip Size (LxW(EIA)) (mm): 3.2 x 1.6 (EIA:1206), Resistance Values (): 56000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25
+ERA8KEB1004V
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ERA-8VEB5602V
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ERA-8VEB5602V)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf)
+~!Height (0.65mm)
+~!3D_Model (ERA-8VEB5602V)
+ERA-8VEB5602V
+1.1!U 2.1!U 

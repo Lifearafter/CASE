@@ -1,0 +1,18 @@
+.GJM1555C1H2R2CB01D :1 ;Murata 0402 GJM 2.2pF Ceramic Multilayer Capacitor, 50 V dc, +125C, C0G Dielectric, +/-0.25pF SMD
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GJM1555C1H2R2CB01D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GJM1555C1H2R2CB01D)
+~!Mouser Part Number (81-GJM1555C1H2R2CB1D)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=81-GJM1555C1H2R2CB1D)
+~!Arrow Part Number (GJM1555C1H2R2CB01D)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/gjm1555c1h2r2cb01d/murata-manufacturing)
+~!Link Datasheet (https://psearch.en.murata.com/capacitor/product/GJM1555C1H2R2CB01%23.html)
+~!Height (0.55mm)
+~!3D_Model (GJM1555C1H2R2CB01D)
+GJM1555C1H2R2CB01D
+1.1!U 2.1!U 

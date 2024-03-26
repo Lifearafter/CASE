@@ -1,0 +1,43 @@
+(footprint "Resistor10kO" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 2.544462 -1.272228) (layer "F.SilkS")
+      (effects (font (size 1.001756 1.001756) (thickness 0.15)))
+    (tstamp ea26e2d5-89a4-4933-8c82-cfc9f35ac1ee)
+  )
+  (fp_text value "0603" (at 1.907147 1.271425) (layer "F.Fab")
+      (effects (font (size 1.001126 1.001126) (thickness 0.15)))
+    (tstamp 6f53e204-5301-41b2-88b9-cf7347ec31a8)
+  )
+  (fp_line (start -0.356 -0.432) (end 0.356 -0.432)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 72f87557-df4a-45fc-9b08-113d3f1fda03))
+  (fp_line (start -0.356 0.419) (end 0.356 0.419)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 4b8d6ac8-e03d-44f0-ae7d-7cae774d391d))
+  (fp_poly
+    (pts
+      (xy -0.839512 -0.4801)
+      (xy -0.3381 -0.4801)
+      (xy -0.3381 0.470636)
+      (xy -0.839512 0.470636)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 35ca7725-3e7c-4840-aaa1-f9d141a2e7d3))
+  (fp_poly
+    (pts
+      (xy 0.330624 -0.4801)
+      (xy 0.8303 -0.4801)
+      (xy 0.8303 0.470504)
+      (xy 0.330624 0.470504)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Fab") (tstamp 95eeea69-1b27-4f84-89bc-ebd3a1bd7f5b))
+  (pad "1" smd rect (at -0.85 0) (size 1.1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 0fdd78c9-8daf-4f2c-93a5-b19bc9a00a3e))
+  (pad "2" smd rect (at 0.85 0) (size 1.1 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.102) (tstamp 6fc77baf-e4fe-4be5-984f-897f5ef568f2))
+  (model "${KIPRJMOD}/imported files/Resistors/Resistor10kO/Resistor10kO.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

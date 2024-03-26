@@ -1,0 +1,9 @@
+Manufacturer=TAIYO YUDEN
+PartNumber=EMK063AC6104KP-F
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2021-07-29 11:40:23
+Downloaded=2024-01-26 17:32:57
+3D=Y

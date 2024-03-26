@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERJ-1GJF6801C
+D Series/Type: Precision Thick Film Chip Resistors, Power Rating (W): 0.05, Chip Size (LxW(EIA)) (mm): 0.6 x 0.3 (EIA:0201), Resistance Values (): 6800, Resistance Tolerance (%): 1, T.C.R (10/K): +/-200
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+#End Doc Library

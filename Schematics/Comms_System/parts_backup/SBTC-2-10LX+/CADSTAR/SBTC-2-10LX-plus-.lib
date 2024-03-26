@@ -1,0 +1,18 @@
+.SBTC-2-10LX-plus- :1 ;Signal Conditioning PWR SPLTR CMBD/SM /TOPHAT RoHS
+SBTC210LX
+*STM FL
+*NGS
+*PLB 1="GROUND_1" 2="GROUND_2" 3="PORT 1" 4="PORT 2" 6="SUM PORT"
+*MXP 5
+*DFN SBTC-2-10LX-plus-
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (SBTC-2-10LX+)
+~!Mouser Part Number (139-SBTC-2-10LX)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/SBTC-2-10LX%2b?qs=xZ%2FP%252Ba9zWqaoMOWomXXHUg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/SBTC-2-10LX+.pdf)
+~!Height (3.94mm)
+~!3D_Model (SBTC-2-10LX+)
+SBTC-2-10LX-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 6.1!U 

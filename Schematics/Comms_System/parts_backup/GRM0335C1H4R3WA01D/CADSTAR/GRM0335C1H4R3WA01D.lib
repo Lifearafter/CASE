@@ -1,0 +1,18 @@
+.GRM0335C1H4R3WA01D :1 ;Multilayer Ceramic Capacitors MLCC - SMD/SMT
+CAPC0603X33N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GRM0335C1H4R3WA01D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GRM0335C1H4R3WA01D)
+~!Mouser Part Number (81-GRM0335C1H4R3WA1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM0335C1H4R3WA01D?qs=2W5sgKM%2F373cHL1V4DNXXg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf)
+~!Height (0.33mm)
+~!3D_Model (GRM0335C1H4R3WA01D)
+GRM0335C1H4R3WA01D
+1.1!U 2.1!U 

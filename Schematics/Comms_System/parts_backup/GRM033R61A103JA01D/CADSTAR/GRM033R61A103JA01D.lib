@@ -1,0 +1,18 @@
+.GRM033R61A103JA01D :1 ;MURATA - GRM033R61A103JA01D - CAP, 0.01UF, 10V, MLCC, 0201
+CAPC0603X33N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GRM033R61A103JA01D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GRM033R61A103JA01D)
+~!Mouser Part Number (81-GRM033R61A103JA1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM033R61A103JA01D?qs=2W5sgKM%2F37140iveeHQVAg%3D%3D)
+~!Arrow Part Number (GRM033R61A103JA01D)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/grm033r61a103ja01d/murata-manufacturing)
+~!Link Datasheet (http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf)
+~!Height (0.33mm)
+~!3D_Model (GRM033R61A103JA01D)
+GRM033R61A103JA01D
+1.1!U 2.1!U 

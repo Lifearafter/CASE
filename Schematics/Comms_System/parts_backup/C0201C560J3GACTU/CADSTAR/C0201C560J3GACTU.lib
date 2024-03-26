@@ -1,0 +1,18 @@
+.C0201C560J3GACTU :1 ;SMD Comm C0G, Ceramic, 56 pF, 5%, 25 VDC, 62.5 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 0.32 mg, 0201, 0.6mm, 0.3mm, 0.3mm, 0.15mm, 15000, 78  Weeks, 120
+C0201
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C0201C560J3GACTU
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (C0201C560J3GACTU)
+~!Mouser Part Number (80-C0201C560J3G)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0201C560J3G)
+~!Arrow Part Number (C0201C560J3GACTU)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/c0201c560j3gactu/kemet-corporation?region=nac)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf)
+~!Height (0.33mm)
+~!3D_Model (C0201C560J3GACTU)
+C0201C560J3GACTU
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C0603C200K8HACTU
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=5.1
+Released=2022-02-23 07:09:34
+Downloaded=2024-01-26 17:25:52
+3D=Y

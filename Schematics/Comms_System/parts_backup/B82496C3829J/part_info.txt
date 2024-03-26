@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B82496C3829J
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2017-01-11 16:14:58
+Downloaded=2024-01-26 18:17:29
+3D=Y

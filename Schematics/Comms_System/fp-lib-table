@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "comms_system_footprints")(type "KiCad")(uri "${KIPRJMOD}/comms_system_footprints.pretty")(options "")(descr ""))
+)

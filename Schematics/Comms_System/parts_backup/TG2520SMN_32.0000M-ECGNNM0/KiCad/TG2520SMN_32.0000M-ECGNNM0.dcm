@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TG2520SMN_32.0000M-ECGNNM0
+D TCXO Oscillators TG2520SMN 32.0000M-ECGNNM0: TCXO 1.8V 0.5PPM -40 85C NON O/E 1K TR
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_TG2520SMN&lang=en
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.GRT033R61A224KE01D :1 ;Capacitor GRT03 L=0.6mm W=0.3mm T=0.3mm
+CAPC0603X33N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN GRT033R61A224KE01D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (GRT033R61A224KE01D)
+~!Mouser Part Number (81-GRT033R61A224KE1D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRT033R61A224KE01D?qs=qkDYIeTQ%252BEknOmjJBJLyMg%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://psearch.en.murata.com/capacitor/product/GRT033R61A224KE01%23.html)
+~!Height (0.33mm)
+~!3D_Model (GRT033R61A224KE01D)
+GRT033R61A224KE01D
+1.1!U 2.1!U 

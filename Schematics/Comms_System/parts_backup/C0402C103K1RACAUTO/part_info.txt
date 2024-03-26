@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C0402C103K1RACAUTO
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2023-08-04 04:11:10
+Downloaded=2024-01-28 06:32:38
+3D=Y

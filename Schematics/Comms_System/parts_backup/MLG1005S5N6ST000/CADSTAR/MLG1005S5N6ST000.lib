@@ -1,0 +1,18 @@
+.MLG1005S5N6ST000 :1 ;Unshielded Multilayer Inductor 1A x 0402 (1005 Metric)
+MLG1005
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MLG1005S5N6ST000
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (MLG1005S5N6ST000)
+~!Mouser Part Number (810-MLG1005S5N6ST000)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/MLG1005S5N6ST000?qs=BanKw8U3RZanzbQ3uYkDLw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_high-frequency_mlg1005s_en.pdf)
+~!Height (-)
+~!3D_Model (MLG1005S5N6ST000)
+MLG1005S5N6ST000
+1.1!U 2.1!U 

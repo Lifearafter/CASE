@@ -1,0 +1,18 @@
+.LQP03TN15NH02D :1 ;Murata LQP03TN_02 Series Wire-wound SMD Inductor with a Non-Magnetic Core Core, 15 nH Film 250mA Idc Q:12
+LQP03TG3N1B02D
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN LQP03TN15NH02D
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (LQP03TN15NH02D)
+~!Mouser Part Number (81-LQP03TN15NH02D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQP03TN15NH02D?qs=e%252BE4OD6MgMeWL5FI%252BNlREw%3D%3D)
+~!Arrow Part Number (LQP03TN15NH02D)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lqp03tn15nh02d/murata-manufacturing?region=nac)
+~!Link Datasheet (https://psearch.en.murata.com/inductor/product/LQP03TN15NH02%23.html)
+~!Height (0.33mm)
+~!3D_Model (LQP03TN15NH02D)
+LQP03TN15NH02D
+1.1!U 2.1!U 

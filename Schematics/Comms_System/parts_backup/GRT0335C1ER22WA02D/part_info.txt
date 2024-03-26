@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRT0335C1ER22WA02D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2021-07-27 13:20:09
+Downloaded=2024-01-26 17:26:41
+3D=Y

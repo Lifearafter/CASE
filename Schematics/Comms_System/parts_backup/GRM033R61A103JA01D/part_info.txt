@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRM033R61A103JA01D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2023-03-07 09:32:30
+Downloaded=2024-01-26 17:47:11
+3D=Y

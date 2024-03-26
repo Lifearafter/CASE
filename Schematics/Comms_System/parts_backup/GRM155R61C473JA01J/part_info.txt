@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRM155R61C473JA01J
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2023-03-07 08:54:26
+Downloaded=2024-01-26 17:37:05
+3D=Y

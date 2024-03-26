@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GCD188R71H392KA01J
+D Capacitor GCD18 L=1.6mm W=0.8mm T=0.8mm
+K
+F https://psearch.en.murata.com/capacitor/product/GCD188R71H392KA01%23.html
+$ENDCMP
+#
+#End Doc Library

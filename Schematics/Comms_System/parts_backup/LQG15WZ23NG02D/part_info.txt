@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=LQG15WZ23NG02D
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2019-10-01 12:21:37
+Downloaded=2024-01-26 20:59:56
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM0335C1H5R1DA01D
+D Capacitor GRM03_0.03 L=0.6mm W=0.3mm T=0.3mm
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+#End Doc Library
