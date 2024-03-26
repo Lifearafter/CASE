@@ -117,6 +117,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
         if (nextHead == bufferTail)
         {
             // Handle buffer overflow
+            bufferTail = (bufferTail + 1) % CIRCULAR_BUFFER_SIZE;
+            bufferHead = nextHead;
         }
         else
         {
