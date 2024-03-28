@@ -10,6 +10,7 @@
 #include "gpio_mapping.h"
 #include "INA226_Driver.h"
 #include "LM75A_Driver.h"
+#include "ADXL345_Driver.h"
 #include "NEOM8N_Driver.h"
 #include "error_handler.h"
 #include "COM_Driver.h"

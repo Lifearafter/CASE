@@ -129,8 +129,27 @@ void ADXL345_SetRange(uint8_t range)
 // Read the X, Y, and Z acceleration values
 void ADXL345_ReadAccel(int16_t *x, int16_t *y, int16_t *z)
 {
+    HAL_StatusTypeDef status = ADXL345_Check();
+
+    if (status != HAL_OK)
+    {
+
+        if (status == HAL_BUSY)
+        {
+            COM_printf("ADXL345 busy");
+            return;
+        }
+        COM_printf("Error reading ADXL345 \n");
+    }
+
     uint8_t data[6];
-    ADXL345_ReadReg(ADXL345_REG_DATAX0, data, 6);
+    status = ADXL345_ReadReg(ADXL345_REG_DATAX0, data, 6);
+    if (status != HAL_OK)
+    {
+        // Error handling
+        COM_printf("Error reading ADXL345 \n");
+        return;
+    }
     *x = (int16_t)(data[1] << 8 | data[0]);
     *y = (int16_t)(data[3] << 8 | data[2]);
     *z = (int16_t)(data[5] << 8 | data[4]);
