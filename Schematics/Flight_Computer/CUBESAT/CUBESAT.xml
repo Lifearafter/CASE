@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Rapha\Documents\CUBESAT\CUBESAT.kicad_sch</source>
+    <date>28-Mar-24 00:25:29</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CUBESAT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10 nF</value>
+      <footprint>CUBESAT:Capacitor10nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e9af82f-563b-4f16-8bb2-8590f20b7179</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>220 nF</value>
+      <footprint>CUBESAT:Capacitor220nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>083c06ab-9571-4fb8-9b8b-64f1479eff69</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c305130e-9ae6-4067-8ee3-7e298082d8a6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>CUBESAT:Capacitor10uf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6560eec-26f8-4461-ae20-e52bc4fcad33</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d41533ca-b877-40ce-9da8-42c549f09556</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0c47641-3884-438b-a273-15d09265497e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF</value>
+      <footprint>CUBESAT:Capacitor2-2uf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca49c777-c49e-405a-8b69-fa17a5303170</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>406f4c05-7d4d-40b6-b479-1a5bd7f0aa54</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.47uF</value>
+      <footprint>CUBESAT:Capacitor0-47uf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e924c4f-7f68-4a61-af1f-e05af2e3a00d</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af504df4-5101-443a-be23-ffd801b9f4d9</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>CUBESAT:Capacitor10nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77c707c4-55cb-4e53-9d75-f78aad26356a</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74fddea4-9105-4273-9046-89e636aba2e0</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>CUBESAT:Capacitor2-2uf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8b29448-9df1-454d-bf99-6430ce3feb1c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6075ebd-3103-4111-bed3-013a992e186e</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f804ba1-1620-4016-a4ce-d9c49e45eac8</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84fc3b07-2226-4970-8344-2cc9df465492</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>CUBESAT:Capacitor10uf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ddbe111-b56a-464f-aad0-a6f0d0ac8f30</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>2.2uF</value>
+      <footprint>CUBESAT:Capacitor2-2uf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfe4f8ee-0b22-4984-ab8d-153c5ef20510</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c396818b-510d-4e6f-b720-9477fba1b8a5</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100nF</value>
+      <footprint>CUBESAT:Capacitor100nf</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9edb29e-1926-4178-8a22-eef4d926263a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Red LED</value>
+      <footprint>CUBESAT:Red LED</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e9d4793-bfea-4bb2-bfcf-66f4cd7282d9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Green LED</value>
+      <footprint>CUBESAT:Green LED</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79fb429f-e454-43a2-8735-cc5af0ace82b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>6 Pin Connector</value>
+      <footprint>CUBESAT:6 Pin Connector</footprint>
+      <fields>
+        <field name="Description">
+Pin Header 6P .100 Pitch Plug | Adam Tech PH1-06-UA
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="6 Pin Connector" description=""/>
+      <property name="MF" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Package" value=""/>
+      <property name="Price" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="STANDARD" value=""/>
+      <property name="PARTREV" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Description" value="&#xA;Pin Header 6P .100 Pitch Plug | Adam Tech PH1-06-UA&#xA;"/>
+      <property name="SNAPEDA_PN" value=""/>
+      <property name="Availability" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c89c25c-e96c-4949-b1a1-de8b67678348</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>M22-6003005</value>
+      <footprint>CUBESAT:PC104</footprint>
+      <fields>
+        <field name="Height">9.35</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M22-6003005</field>
+      </fields>
+      <libsource lib="CUBESAT" part="PC104" description="PC / 104 Connectors 2mm 30P STACKTHRU GOLD"/>
+      <property name="Height" value="9.35"/>
+      <property name="Manufacturer_Name" value="Harwin"/>
+      <property name="Manufacturer_Part_Number" value="M22-6003005"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="PC / 104 Connectors 2mm 30P STACKTHRU GOLD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>896dcdbf-8fef-4b1b-9a59-902307daa0e3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>U.FL-R-SMT_01_</value>
+      <footprint>CUBESAT:UFL</footprint>
+      <libsource lib="CUBESAT" part="UFL" description=""/>
+      <property name="MF" value=""/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value=""/>
+      <property name="PRICE" value=""/>
+      <property name="Package" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value=""/>
+      <property name="AVAILABILITY" value=""/>
+      <property name="Description" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1454c05a-c76a-48fa-95f2-f7bd7eef35b3</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>27 nH</value>
+      <footprint>CUBESAT:Inductor27nH</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b324b64-7329-4141-98bc-18f1f77f1357</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>CUBESAT:Resistor10kO</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c53fbbc-db7a-4b2d-acd8-e771c9b9eb5e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>CUBESAT:Resistor10kO</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8dbb6ea-7d45-4525-9b4d-ace76d35ba2f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10</value>
+      <footprint>CUBESAT:Resistor10O</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b29d5082-604f-4b22-8b53-9bebc641825a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>300</value>
+      <footprint>CUBESAT:Resistor300O</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>726a56ea-c789-41e8-8664-9a83715c0c16</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>CUBESAT:Resistor10kO</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4141b6c8-dd64-421c-aa00-1a165b8fa13f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>300</value>
+      <footprint>CUBESAT:Resistor300O</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a955803-b876-4683-bdf0-56705fec1c72</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>Resistor100O</value>
+      <footprint>CUBESAT:Reistor100O</footprint>
+      <fields>
+        <field name="Description">
+100 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Resistor100O" description=""/>
+      <property name="MF" value=""/>
+      <property name="Description" value="&#xA;100 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Availability" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ae159a7-b149-4581-bad6-65b4fc2cba6d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>~</value>
+      <footprint>CUBESAT:Resistor4.7kO</footprint>
+      <fields>
+        <field name="Description">
+4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Resistor4.7kO" description=""/>
+      <property name="MF" value=""/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value=""/>
+      <property name="PRICE" value=""/>
+      <property name="Package" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Description" value="&#xA;4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Availability" value=""/>
+      <property name="AVAILABILITY" value=""/>
+      <property name="PURCHASE-URL" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b74f78b-a15a-494c-82e1-b7f94e3e8f88</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>~</value>
+      <footprint>CUBESAT:Resistor4.7kO</footprint>
+      <fields>
+        <field name="Description">
+4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Resistor4.7kO" description=""/>
+      <property name="MF" value=""/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value=""/>
+      <property name="PRICE" value=""/>
+      <property name="Package" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Description" value="&#xA;4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Availability" value=""/>
+      <property name="AVAILABILITY" value=""/>
+      <property name="PURCHASE-URL" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cf548b6-9f5b-4d04-824c-170541555585</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>~</value>
+      <footprint>CUBESAT:Resistor4.7kO</footprint>
+      <fields>
+        <field name="Description">
+4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Resistor4.7kO" description=""/>
+      <property name="MF" value=""/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value=""/>
+      <property name="PRICE" value=""/>
+      <property name="Package" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Description" value="&#xA;4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Availability" value=""/>
+      <property name="AVAILABILITY" value=""/>
+      <property name="PURCHASE-URL" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3630753d-aade-4af6-9654-ece3b439d9ab</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>~</value>
+      <footprint>CUBESAT:Resistor4.7kO</footprint>
+      <fields>
+        <field name="Description">
+4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Resistor4.7kO" description=""/>
+      <property name="MF" value=""/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value=""/>
+      <property name="PRICE" value=""/>
+      <property name="Package" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="Price" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Description" value="&#xA;4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Availability" value=""/>
+      <property name="AVAILABILITY" value=""/>
+      <property name="PURCHASE-URL" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38fd11e-f0b0-41e1-b8b6-0ae504187926</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Button</value>
+      <footprint>CUBESAT:Button</footprint>
+      <libsource lib="CUBESAT" part="Button" description=""/>
+      <property name="MF" value=""/>
+      <property name="Description" value=""/>
+      <property name="Package" value=""/>
+      <property name="Price" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="STANDARD" value=""/>
+      <property name="PARTREV" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="CUI_purchase_URL" value=""/>
+      <property name="Availability" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02b2eb10-adc8-4a55-8a9d-c660bcf3900e</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>Button</value>
+      <footprint>CUBESAT:Button</footprint>
+      <libsource lib="CUBESAT" part="Button" description=""/>
+      <property name="MF" value=""/>
+      <property name="Description" value=""/>
+      <property name="Package" value=""/>
+      <property name="Price" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="STANDARD" value=""/>
+      <property name="PARTREV" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="CUI_purchase_URL" value=""/>
+      <property name="Availability" value=""/>
+      <property name="MANUFACTURER" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3374f906-1207-4278-9bc5-15480b81d039</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ADXL345BCCZ</value>
+      <footprint>CUBESAT:Accelerometer</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Description">
+3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer
+</field>
+        <field name="MANUFACTURER">Analog Devices</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="MF">Analog Devices</field>
+        <field name="MP">ADXL345BCCZ</field>
+        <field name="PARTREV">G</field>
+        <field name="Package">LGA -14 Analog Devices</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">ADXL345BCCZ</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Accelerometer" description=""/>
+      <property name="MF" value="Analog Devices"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.00mm"/>
+      <property name="Package" value="LGA -14 Analog Devices"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value=""/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="PARTREV" value="G"/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value="ADXL345BCCZ"/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Description" value="&#xA;3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer&#xA;"/>
+      <property name="MANUFACTURER" value="Analog Devices"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="ADXL345BCCZ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f54c65ef-037a-41cc-a904-4c3035a4225e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>NEO-M8N-0</value>
+      <footprint>CUBESAT:GPS</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Description">
+series RF Receiver BeiDou, Galileo, GLONASS, GNSS, GPS 1.575GHz -167dBm - - -
+</field>
+        <field name="MF">U-Blox America</field>
+        <field name="MP">NEO-M8N-0</field>
+        <field name="PARTREV">R04</field>
+        <field name="Package">SMD-24 U-Blox America Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="CUBESAT" part="GPS" description=""/>
+      <property name="MF" value="U-Blox America"/>
+      <property name="Description" value="&#xA;series RF Receiver BeiDou, Galileo, GLONASS, GNSS, GPS 1.575GHz -167dBm - - -&#xA;"/>
+      <property name="Package" value="SMD-24 U-Blox America Inc."/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="R04"/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value="NEO-M8N-0"/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bea90234-d4b6-4443-bc5b-158ace82f3d4</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>IAM-20380</value>
+      <footprint>CUBESAT:Gyroscope</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Availability">In Stock</field>
+        <field name="Description">yroscope X (Pitch), Y (Roll), Z (Yaw) ±250, 500, 1000, 2000 27kHz I²C, SPI 16-LGA (3x3)
+</field>
+        <field name="MF">TDK InvenSense</field>
+        <field name="MP">IAM-20380</field>
+        <field name="PACKAGE">PQFN-16 TDK-InvenSense</field>
+        <field name="PRICE">None</field>
+        <field name="Package">PQFN-16 TDK-InvenSense</field>
+        <field name="Price">None</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Gyroscope" description=""/>
+      <property name="MF" value="TDK InvenSense"/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value="PQFN-16 TDK-InvenSense"/>
+      <property name="NOTES" value=""/>
+      <property name="Package" value="PQFN-16 TDK-InvenSense"/>
+      <property name="Check_prices" value=""/>
+      <property name="Price" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value="IAM-20380"/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="Description" value="yroscope X (Pitch), Y (Roll), Z (Yaw) ±250, 500, 1000, 2000 27kHz I²C, SPI 16-LGA (3x3)&#xA;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9980c58-86bf-436d-ae76-0ca340b29c5c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MAGNETOMETER</value>
+      <footprint>CUBESAT:MAGNETOMETER</footprint>
+      <fields>
+        <field name="Description">
+Magnetoresistive Sensor X, Y, Z Axis 12-LGA (2x2)
+</field>
+      </fields>
+      <libsource lib="CUBESAT" part="MAGNETOMETER" description=""/>
+      <property name="MF" value=""/>
+      <property name="DESCRIPTION" value=""/>
+      <property name="PACKAGE" value=""/>
+      <property name="PRICE" value=""/>
+      <property name="Package" value=""/>
+      <property name="Check_prices" value=""/>
+      <property name="STANDARD" value=""/>
+      <property name="PARTREV" value=""/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value=""/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Price" value=""/>
+      <property name="Description" value="&#xA;Magnetoresistive Sensor X, Y, Z Axis 12-LGA (2x2)&#xA;"/>
+      <property name="Availability" value=""/>
+      <property name="AVAILABILITY" value=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58712923-d634-4aef-a5ba-b65967448a9a</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>STM32F446RET6</value>
+      <footprint>CUBESAT:STM32</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Description">
+ARM® Cortex®-M4 STM32F4 Microcontroller IC 32-Bit Single-Core 180MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)
+</field>
+        <field name="MANUFACTURER">ST Microelectronics</field>
+        <field name="MF">STMicroelectronics</field>
+        <field name="MP">STM32F446RET6</field>
+        <field name="PARTREV">6</field>
+        <field name="Package">LQFP-64 STMicroelectronics</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="CUBESAT" part="STM32" description=""/>
+      <property name="MF" value="STMicroelectronics"/>
+      <property name="Description" value="&#xA;ARM® Cortex®-M4 STM32F4 Microcontroller IC 32-Bit Single-Core 180MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)&#xA;"/>
+      <property name="Package" value="LQFP-64 STMicroelectronics"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value=""/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="6"/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value="STM32F446RET6"/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="ST Microelectronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a18d4f2-f106-4623-8cd9-164718b2617d</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LM75AIM_NOPB</value>
+      <footprint>CUBESAT:Temp</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Description">
+2C industry standard temperature sensor, I2C/SMBus interface
+</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="MP">LM75AIM/NOPB</field>
+        <field name="Package">SOIC-8 Texas Instruments</field>
+        <field name="Price">None</field>
+      </fields>
+      <libsource lib="CUBESAT" part="Temp" description=""/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Description" value="&#xA;2C industry standard temperature sensor, I2C/SMBus interface&#xA;"/>
+      <property name="Package" value="SOIC-8 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value=""/>
+      <property name="MP" value="LM75AIM/NOPB"/>
+      <property name="Purchase-URL" value=""/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CUBESAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3849c94e-d349-4568-bb6c-d410729de17a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CUBESAT" part="6 Pin Connector">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6 Pin Connector</field>
+        <field name="Footprint">CUBESAT:6 Pin Connector</field>
+        <field name="Description">
+Pin Header 6P .100 Pitch Plug | Adam Tech PH1-06-UA
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="Accelerometer">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADXL345BCCZ</field>
+        <field name="Footprint">CUBESAT:Accelerometer</field>
+        <field name="MF">Analog Devices</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="Package">LGA -14 Analog Devices</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="PARTREV">G</field>
+        <field name="MP">ADXL345BCCZ</field>
+        <field name="Description">
+3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer
+</field>
+        <field name="MANUFACTURER">Analog Devices</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">ADXL345BCCZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_I/O" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RESERVED_VS" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="~{CS}" type="input"/>
+        <pin num="8" name="INT1" type="output"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="RESERVED_GND" type="passive"/>
+        <pin num="12" name="SDO/ALT_ADDRESS" type="bidirectional"/>
+        <pin num="13" name="SDA/SDI/SDIO" type="bidirectional"/>
+        <pin num="14" name="SCL/SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="Button">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Button</field>
+        <field name="Footprint">CUBESAT:Button</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="GPS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NEO-M8N-0</field>
+        <field name="Footprint">CUBESAT:GPS</field>
+        <field name="MF">U-Blox America</field>
+        <field name="Description">
+series RF Receiver BeiDou, Galileo, GLONASS, GNSS, GPS 1.575GHz -167dBm - - -
+</field>
+        <field name="Package">SMD-24 U-Blox America Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">R04</field>
+        <field name="MP">NEO-M8N-0</field>
+        <field name="Availability">In Stock</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SAFEBOOT_N" type="input"/>
+        <pin num="2" name="D_SEL" type="input"/>
+        <pin num="3" name="TIMEPULSE" type="output"/>
+        <pin num="4" name="EXTINT" type="input"/>
+        <pin num="5" name="USB_DM" type="bidirectional"/>
+        <pin num="6" name="USB_DP" type="bidirectional"/>
+        <pin num="7" name="VDD_USB" type="power_in"/>
+        <pin num="8" name="RESET_N" type="input"/>
+        <pin num="9" name="VCC_RF" type="output"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="RF_IN" type="input"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="LNA_EN" type="output"/>
+        <pin num="18" name="SDA/SPI_CS_N" type="bidirectional"/>
+        <pin num="19" name="SCL/SPI_CLK" type="input"/>
+        <pin num="20" name="TXD/SPI_MISO" type="output"/>
+        <pin num="21" name="RXD/SPI_MOSI" type="input"/>
+        <pin num="22" name="V_BCKP" type="power_in"/>
+        <pin num="23" name="VCC" type="power_in"/>
+        <pin num="24" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="Gyroscope">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IAM-20380</field>
+        <field name="Footprint">CUBESAT:Gyroscope</field>
+        <field name="MF">TDK InvenSense</field>
+        <field name="PACKAGE">PQFN-16 TDK-InvenSense</field>
+        <field name="Package">PQFN-16 TDK-InvenSense</field>
+        <field name="Price">None</field>
+        <field name="PRICE">None</field>
+        <field name="MP">IAM-20380</field>
+        <field name="Availability">In Stock</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Description">yroscope X (Pitch), Y (Roll), Z (Yaw) ±250, 500, 1000, 2000 27kHz I²C, SPI 16-LGA (3x3)
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="SCL/SPC" type="bidirectional"/>
+        <pin num="3" name="SDA/SDI" type="input"/>
+        <pin num="4" name="SA0/SDO" type="output"/>
+        <pin num="5" name="CS" type="input"/>
+        <pin num="6" name="INT" type="output"/>
+        <pin num="7" name="RESV7" type="passive"/>
+        <pin num="8" name="FSYNC" type="input"/>
+        <pin num="9" name="RESV9_1215" type="passive"/>
+        <pin num="10" name="RESV9_1215" type="passive"/>
+        <pin num="11" name="RESV9_1215" type="passive"/>
+        <pin num="12" name="RESV9_1215" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="REGOUT" type="passive"/>
+        <pin num="15" name="RESV9_1215" type="passive"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="MAGNETOMETER">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAGNETOMETER</field>
+        <field name="Description">
+Magnetoresistive Sensor X, Y, Z Axis 12-LGA (2x2)
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPC" type="input"/>
+        <pin num="2" name="RSVD1" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="C1" type="passive"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VDD_IO" type="power_in"/>
+        <pin num="7" name="INT" type="output"/>
+        <pin num="8" name="DRDY" type="output"/>
+        <pin num="9" name="SDO/SA1" type="bidirectional"/>
+        <pin num="10" name="CS" type="input"/>
+        <pin num="11" name="SDA/SDI/SDO" type="bidirectional"/>
+        <pin num="12" name="RSVD2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="PC104">
+      <description>PC / 104 Connectors 2mm 30P STACKTHRU GOLD</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M22-6003005</field>
+        <field name="Footprint">CUBESAT:PC104</field>
+        <field name="Height">9.35</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M22-6003005</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+        <pin num="41" name="41" type="passive"/>
+        <pin num="42" name="42" type="passive"/>
+        <pin num="43" name="43" type="passive"/>
+        <pin num="44" name="44" type="passive"/>
+        <pin num="45" name="45" type="passive"/>
+        <pin num="46" name="46" type="passive"/>
+        <pin num="47" name="47" type="passive"/>
+        <pin num="48" name="48" type="passive"/>
+        <pin num="49" name="49" type="passive"/>
+        <pin num="50" name="50" type="passive"/>
+        <pin num="51" name="51" type="passive"/>
+        <pin num="52" name="52" type="passive"/>
+        <pin num="53" name="53" type="passive"/>
+        <pin num="54" name="54" type="passive"/>
+        <pin num="55" name="55" type="passive"/>
+        <pin num="56" name="56" type="passive"/>
+        <pin num="57" name="57" type="passive"/>
+        <pin num="58" name="58" type="passive"/>
+        <pin num="59" name="59" type="passive"/>
+        <pin num="60" name="60" type="passive"/>
+        <pin num="61" name="61" type="passive"/>
+        <pin num="62" name="62" type="passive"/>
+        <pin num="63" name="63" type="passive"/>
+        <pin num="64" name="64" type="passive"/>
+        <pin num="65" name="65" type="passive"/>
+        <pin num="66" name="66" type="passive"/>
+        <pin num="67" name="67" type="passive"/>
+        <pin num="68" name="68" type="passive"/>
+        <pin num="69" name="69" type="passive"/>
+        <pin num="70" name="70" type="passive"/>
+        <pin num="71" name="71" type="passive"/>
+        <pin num="72" name="72" type="passive"/>
+        <pin num="73" name="73" type="passive"/>
+        <pin num="74" name="74" type="passive"/>
+        <pin num="75" name="75" type="passive"/>
+        <pin num="76" name="76" type="passive"/>
+        <pin num="77" name="77" type="passive"/>
+        <pin num="78" name="78" type="passive"/>
+        <pin num="79" name="79" type="passive"/>
+        <pin num="80" name="80" type="passive"/>
+        <pin num="81" name="81" type="passive"/>
+        <pin num="82" name="82" type="passive"/>
+        <pin num="83" name="83" type="passive"/>
+        <pin num="84" name="84" type="passive"/>
+        <pin num="85" name="85" type="passive"/>
+        <pin num="86" name="86" type="passive"/>
+        <pin num="87" name="87" type="passive"/>
+        <pin num="88" name="88" type="passive"/>
+        <pin num="89" name="89" type="passive"/>
+        <pin num="90" name="90" type="passive"/>
+        <pin num="91" name="91" type="passive"/>
+        <pin num="92" name="92" type="passive"/>
+        <pin num="93" name="93" type="passive"/>
+        <pin num="94" name="94" type="passive"/>
+        <pin num="95" name="95" type="passive"/>
+        <pin num="96" name="96" type="passive"/>
+        <pin num="97" name="97" type="passive"/>
+        <pin num="98" name="98" type="passive"/>
+        <pin num="99" name="99" type="passive"/>
+        <pin num="100" name="100" type="passive"/>
+        <pin num="101" name="101" type="passive"/>
+        <pin num="102" name="102" type="passive"/>
+        <pin num="103" name="103" type="passive"/>
+        <pin num="104" name="104" type="passive"/>
+        <pin num="105" name="105" type="passive"/>
+        <pin num="106" name="106" type="passive"/>
+        <pin num="107" name="107" type="passive"/>
+        <pin num="108" name="108" type="passive"/>
+        <pin num="109" name="109" type="passive"/>
+        <pin num="110" name="110" type="passive"/>
+        <pin num="111" name="111" type="passive"/>
+        <pin num="112" name="112" type="passive"/>
+        <pin num="113" name="113" type="passive"/>
+        <pin num="114" name="114" type="passive"/>
+        <pin num="115" name="115" type="passive"/>
+        <pin num="116" name="116" type="passive"/>
+        <pin num="117" name="117" type="passive"/>
+        <pin num="118" name="118" type="passive"/>
+        <pin num="119" name="119" type="passive"/>
+        <pin num="120" name="120" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="Resistor100O">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor100O</field>
+        <field name="Footprint">CUBESAT:Reistor100O</field>
+        <field name="Description">
+100 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="Resistor4.7kO">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-074K7L</field>
+        <field name="Footprint">CUBESAT:Resistor4.7kO</field>
+        <field name="Description">
+4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="STM32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F446RET6</field>
+        <field name="Footprint">CUBESAT:STM32</field>
+        <field name="MF">STMicroelectronics</field>
+        <field name="Description">
+ARM® Cortex®-M4 STM32F4 Microcontroller IC 32-Bit Single-Core 180MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)
+</field>
+        <field name="Package">LQFP-64 STMicroelectronics</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">6</field>
+        <field name="MP">STM32F446RET6</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">ST Microelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13/EVENTOUT" type="bidirectional"/>
+        <pin num="3" name="PC14-OSC32_IN(PC14)/EVENTOUT" type="bidirectional"/>
+        <pin num="4" name="PC15-OSC32_OUT(PC15)/EVENTOUT" type="bidirectional"/>
+        <pin num="5" name="PH0-OSC_IN/EVENTOUT" type="bidirectional"/>
+        <pin num="6" name="PH1-OSC_OUT/EVENTOUT" type="bidirectional"/>
+        <pin num="7" name="NRST" type="bidirectional"/>
+        <pin num="8" name="PC0/SAI1_MCLK_B/OTG_HS_ULPI_STP/FMC_SDNWE/EVENTOUT" type="bidirectional"/>
+        <pin num="9" name="PC1/SPI3_MOSI/I2S3_SD/SAI1_SD_A/SPI2_MOSI/I2S2_SD/EVENTOUT" type="bidirectional"/>
+        <pin num="10" name="PC2/SPI2_MISO/OTG_HS_ULPI_DIR/FMC_SDNE0/EVENTOUT" type="bidirectional"/>
+        <pin num="11" name="PC3/SPI2_MOSI/I2S2_SD/OTG_HS_ULPI_NXT/FMC_SDCKE0/EVENTOUT" type="bidirectional"/>
+        <pin num="12" name="VSSA/VREF-" type="power_in"/>
+        <pin num="13" name="VDDA/VREF+" type="power_in"/>
+        <pin num="14" name="PA0-WKUP(PA0)TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/USART2_CTS/UART4_TX/EVENTOUT" type="bidirectional"/>
+        <pin num="15" name="PA1/TIM2_CH2/TIM5_CH2/USART2_RTS/UART4_RX/QUADSPI_BK1_IO3/SAI2_MCLK_B/EVENTOUT" type="bidirectional"/>
+        <pin num="16" name="PA2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/SAI2_SCK_B/EVENTOUT" type="bidirectional"/>
+        <pin num="17" name="PA3/TIM2_CH4/TIM5_CH4/TIM9_CH2/SAI1_FS_A/USART2_RX/OTG_HS_ULPI_D0/EVENTOUT" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/USART2_CK/OTG_HS_SOF/DCMI_HSYNC/EVENTOUT" type="bidirectional"/>
+        <pin num="21" name="PA5/TIM2_CH1/TIM2_ETR/TIM8_CH1N/SPI1_SCK/I2S1_CK/OTG_HS_ULPI_CK/EVENTOUT" type="bidirectional"/>
+        <pin num="22" name="PA6/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/SPI1_MISO/I2S2_MCK/TIM13_CH1/DCMI_PIXCLK/EVENTOUT" type="bidirectional"/>
+        <pin num="23" name="PA7/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/SPI1_MOSI/I2S1_SD/TIM14_CH1/FMC_SDNWE/EVENTOUT" type="bidirectional"/>
+        <pin num="24" name="PC4/I2S1_MCK/SPDIFRX_IN2/FMC_SDNE0/EVENTOUT" type="bidirectional"/>
+        <pin num="25" name="PC5/USART3_RX/SPDIFRX_IN3/FMC_SDCKE0/EVENTOUT" type="bidirectional"/>
+        <pin num="26" name="PB0/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/SPI3_MOSI/I2S3_SD/UART4_CTS/OTG_HS_ULPI_D1/SDIO_D1/EVENTOUT" type="bidirectional"/>
+        <pin num="27" name="PB1/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/OTG_HS_ULPI_D2/SDIO_D2/EVENTOUT" type="bidirectional"/>
+        <pin num="28" name="PB2-BOOT1(PB2)/TIM2_CH4/SAI1_SD_A/SPI3_MOSI/I2S3_SD/QUADSPI_CLK/OTG_HS_ULPI_D4/SDIO_CK/EVENTOUT" type="bidirectional"/>
+        <pin num="29" name="PB10/TIM2_CH3/I2C2_SCL/SPI2_SCK/I2S2_CK/SAI1_SCK_A/USART3_TX/OTG_HS_ULPI_D3/EVENTOUT" type="bidirectional"/>
+        <pin num="30" name="VCAP_1" type="power_in"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12/TIM1_BKIN/I2C2_SMBA/SPI2_NSS/I2S2_WS/SAI1_SCK_B/USART3_CK/CAN2_RX/OTG_HS_ULPI_D5/OTG_HS_ID/EVENTOUT" type="bidirectional"/>
+        <pin num="34" name="PB13/TIM1_CH1N/SPI2_SCK/I2S2_CK/USART3_CTS/CAN2_TX/OTG_HS_ULPI_D6/EVENTOUT" type="bidirectional"/>
+        <pin num="35" name="PB14/TIM1_CH2N/TIM8_CH2N/SPI2_MISO/USART3_RTS/TIM12_CH1/OTG_HS_DM/EVENTOUT" type="bidirectional"/>
+        <pin num="36" name="PB15/RTC_REFIN/TIM1_CH3N/TIM8_CH3N/SPI2_MOSI/I2S2_SD/TIM12_CH2/OTG_HS_DP/EVENTOUT" type="bidirectional"/>
+        <pin num="37" name="PC6/TIM3_CH1/TIM8_CH1/FMPI2C1_SCL/I2S2_MCK/USART6_TX/SDIO_D6/DCMI_D0/EVENTOUT" type="bidirectional"/>
+        <pin num="38" name="PC7/TIM3_CH2/TIM8_CH2/FMPI2C1_SDA/SPI2_SCK/I2S2_CK/I2S3_MCK/SPDIFRX_IN1/USART6_RX/SDIO_D7/DCMI_D1/EVENTOUT" type="bidirectional"/>
+        <pin num="39" name="PC8/TRACED0/TIM3_CH3/TIM8_CH3/UART5_RTS/USART6_CK/SDIO_D0/DCMI_D2/EVENTOUT" type="bidirectional"/>
+        <pin num="40" name="PC9/MCO2/TIM3_CH4/TIM8_CH4/I2C3_SDA/I2S_CKIN/UART5_CTS/QUADSPI_BK1_IO0/SDIO_D1/DCMI_D3/EVENTOUT" type="bidirectional"/>
+        <pin num="41" name="PA8/MCO1/TIM1_CH1/I2C3_SCL/USART1_CK/OTG_FS_SOF/EVENTOUT" type="bidirectional"/>
+        <pin num="42" name="PA9/TIM1_CH2/I2C3_SMBA/SPI2_SCK/I2S2_CK/SAI1_SD_B/USART1_TX/DCMI_D0/EVENTOUT" type="bidirectional"/>
+        <pin num="43" name="PA10/TIM1_CH3/USART1_RX/OTG_FS_ID/DCMI_D1/EVENTOUT" type="bidirectional"/>
+        <pin num="44" name="PA11/TIM1_CH4/USART1_CTS/CAN1_RX/OTG_FS_DM/EVENTOUT" type="bidirectional"/>
+        <pin num="45" name="PA12/TIM1_ETR/USART1_RTS/SAI2_FS_B/CAN1_TX/OTG_FS_DP/EVENTOUT" type="bidirectional"/>
+        <pin num="46" name="PA13/JTMS-SWDIO/EVENTOUT" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14/JTCK-SWCLK/EVENTOUT" type="bidirectional"/>
+        <pin num="50" name="PA15/JTDI/TIM2_CH1/TIM2_ETR/HDMI_CEC/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/UART4_RTS/EVENTOUT" type="bidirectional"/>
+        <pin num="51" name="PC10/SPI3_SCK/I2S3_CK/USART3_TX/UART4_TX/QUADSPI_BK1_IO1/SDIO_D2/DCMI_D8/EVENTOUT" type="bidirectional"/>
+        <pin num="52" name="PC11/SPI3_MISO/USART3_RX/UART4_RX/QUADSPI_BK2_NCS/SDIO_D3/DCMI_D4/EVENTOUT" type="bidirectional"/>
+        <pin num="53" name="PC12/I2C2_SDA/SPI3_MOSI/I2S3_SD/USART3_CK/UART5_TX/SDIO_CK/DCMI_D9/EVENTOUT" type="bidirectional"/>
+        <pin num="54" name="PD2/TIM3_ETR/UART5_RX/SDIO_CMD/DCMI_D11/EVENTOUT" type="bidirectional"/>
+        <pin num="55" name="PB3(JTDO/TRACESWO)/JTDO/TRACESWO/TIM2_CH2/I2C2_SDA/SPI1_SCK/I2S1_CK/SPI3_SCK/I2S3_CK/EVENTOUT" type="bidirectional"/>
+        <pin num="56" name="PB4(NJTRST)/NJTRST/TIM3_CH1/I2C3_SDA/SPI1_MISO/SPI3_MISO/SPI2_NSS/I2S2_WS/EVENTOUT" type="bidirectional"/>
+        <pin num="57" name="PB5/TIM3_CH2/I2C1_SMBA/SPI1_MOSI/I2S1_SD/SPI3_MOSI/I2S3_SD/CAN2_RX/OTG_HS_ULPI_D7/FMC_SDCKE1/DCMI_D10/EVENTOUT" type="bidirectional"/>
+        <pin num="58" name="PB6/TIM4_CH1/HDMI_CEC/I2C1_SCL/USART1_TX/CAN2_TX/QUADSPI_BK1_NCS/FMC_SDNE1/DCMI_D5/EVENTOUT" type="bidirectional"/>
+        <pin num="59" name="PB7/TIM4_CH2/I2C1_SDA/USART1_RX/SPDIFRX_IN0/FMC_NL/DCMI_VSYNC/EVENTOUT" type="bidirectional"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8/TIM2_CH1/TIM2_ETR/TIM4_CH3/TIM10_CH1/I2C1_SCL/CAN1_RX/SDIO_D4/DCMI_D6/EVENTOUT" type="bidirectional"/>
+        <pin num="62" name="PB9/TIM2_CH2/TIM4_CH4/TIM11_CH1/I2C1_SDA/SPI2_NSS/I2S2_WS/SAI1_FS_B/CAN1_TX/SDIO_D5/DCMI_D7/EVENTOUT" type="bidirectional"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="Temp">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM75AIM_NOPB</field>
+        <field name="Footprint">CUBESAT:Temp</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description">
+2C industry standard temperature sensor, I2C/SMBus interface
+</field>
+        <field name="Package">SOIC-8 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="MP">LM75AIM/NOPB</field>
+        <field name="Availability">In Stock</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="OS" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A2" type="bidirectional"/>
+        <pin num="6" name="A1" type="bidirectional"/>
+        <pin num="7" name="A0" type="bidirectional"/>
+        <pin num="8" name="VS+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CUBESAT" part="UFL">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">U.FL-R-SMT_01_</field>
+        <field name="Footprint">CUBESAT:UFL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SIG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CUBESAT">
+      <uri>C:\Users\Rapha\Documents\CUBESAT/CUBESAT.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3.3 V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S1" pin="2" pintype="passive"/>
+      <node ref="S1" pin="3" pintype="passive"/>
+      <node ref="S1" pin="4" pintype="passive"/>
+      <node ref="S2" pin="3" pintype="passive"/>
+      <node ref="S2" pin="4" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_I/O" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="22" pinfunction="V_BCKP" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VDD_USB" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="RESV9_1215" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="RESV9_1215" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="RESV9_1215" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="RESV9_1215" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="CS" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="RESV7" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="RESV9_1215" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="VDD_IO" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="VSSA/VREF-" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="VDDA/VREF+" pintype="power_in"/>
+      <node ref="U5" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="31" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="63" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U6" pin="8" pinfunction="VS+" pintype="power_in"/>
+    </net>
+    <net code="2" name="5 V">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="ADXL345 CS">
+      <node ref="U1" pin="7" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U5" pin="50" pinfunction="PA15/JTDI/TIM2_CH1/TIM2_ETR/HDMI_CEC/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/UART4_RTS/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="ADXL345 MISO">
+      <node ref="U1" pin="12" pinfunction="SDO/ALT_ADDRESS" pintype="bidirectional"/>
+      <node ref="U5" pin="52" pinfunction="PC11/SPI3_MISO/USART3_RX/UART4_RX/QUADSPI_BK2_NCS/SDIO_D3/DCMI_D4/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="ADXL345 MOSI">
+      <node ref="U1" pin="13" pinfunction="SDA/SDI/SDIO" pintype="bidirectional"/>
+      <node ref="U5" pin="53" pinfunction="PC12/I2C2_SDA/SPI3_MOSI/I2S3_SD/USART3_CK/UART5_TX/SDIO_CK/DCMI_D9/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="ADXL345 SCK">
+      <node ref="U1" pin="14" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U5" pin="51" pinfunction="PC10/SPI3_SCK/I2S3_CK/USART3_TX/UART4_TX/QUADSPI_BK1_IO1/SDIO_D2/DCMI_D8/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="BOOT0">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U5" pin="60" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="8" name="CC1120 (MISO)">
+      <node ref="J2" pin="103" pinfunction="103" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="PA6/TIM1_BKIN/TIM3_CH1/TIM8_BKIN/SPI1_MISO/I2S2_MCK/TIM13_CH1/DCMI_PIXCLK/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="CC1120 (MOSI)">
+      <node ref="J2" pin="99" pinfunction="99" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="PA7/TIM1_CH1N/TIM3_CH2/TIM8_CH1N/SPI1_MOSI/I2S1_SD/TIM14_CH1/FMC_SDNWE/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="CC1120 (NSS{slash}CS)">
+      <node ref="J2" pin="111" pinfunction="111" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="PA4/SPI1_NSS/I2S1_WS/SPI3_NSS/I2S3_WS/USART2_CK/OTG_HS_SOF/DCMI_HSYNC/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="CC1120 (SCK)">
+      <node ref="J2" pin="107" pinfunction="107" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="PA5/TIM2_CH1/TIM2_ETR/TIM8_CH1N/SPI1_SCK/I2S1_CK/OTG_HS_ULPI_CK/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="I2C 3 SCL">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SCL/SPC" pintype="bidirectional"/>
+      <node ref="U5" pin="41" pinfunction="PA8/MCO1/TIM1_CH1/I2C3_SCL/USART1_CK/OTG_FS_SOF/EVENTOUT" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="13" name="I2C 3 SDA">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="SDA/SDI" pintype="input"/>
+      <node ref="U5" pin="40" pinfunction="PC9/MCO2/TIM3_CH4/TIM8_CH4/I2C3_SDA/I2S_CKIN/UART5_CTS/QUADSPI_BK1_IO0/SDIO_D1/DCMI_D3/EVENTOUT" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="INA226 SCL">
+      <node ref="J2" pin="83" pinfunction="83" pintype="passive"/>
+      <node ref="U5" pin="58" pinfunction="PB6/TIM4_CH1/HDMI_CEC/I2C1_SCL/USART1_TX/CAN2_TX/QUADSPI_BK1_NCS/FMC_SDNE1/DCMI_D5/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="INA226 SDA">
+      <node ref="J2" pin="87" pinfunction="87" pintype="passive"/>
+      <node ref="U5" pin="59" pinfunction="PB7/TIM4_CH2/I2C1_SDA/USART1_RX/SPDIFRX_IN0/FMC_NL/DCMI_VSYNC/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="LIS3MDL CS">
+      <node ref="U4" pin="10" pinfunction="CS" pintype="input"/>
+      <node ref="U5" pin="33" pinfunction="PB12/TIM1_BKIN/I2C2_SMBA/SPI2_NSS/I2S2_WS/SAI1_SCK_B/USART3_CK/CAN2_RX/OTG_HS_ULPI_D5/OTG_HS_ID/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LIS3MDL MISO">
+      <node ref="U4" pin="9" pinfunction="SDO/SA1" pintype="bidirectional"/>
+      <node ref="U5" pin="35" pinfunction="PB14/TIM1_CH2N/TIM8_CH2N/SPI2_MISO/USART3_RTS/TIM12_CH1/OTG_HS_DM/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="LIS3MDL MOSI">
+      <node ref="U4" pin="11" pinfunction="SDA/SDI/SDO" pintype="bidirectional"/>
+      <node ref="U5" pin="36" pinfunction="PB15/RTC_REFIN/TIM1_CH3N/TIM8_CH3N/SPI2_MOSI/I2S2_SD/TIM12_CH2/OTG_HS_DP/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="LIS3MDL SCK">
+      <node ref="U4" pin="1" pinfunction="SCL/SPC" pintype="input"/>
+      <node ref="U5" pin="34" pinfunction="PB13/TIM1_CH1N/SPI2_SCK/I2S2_CK/USART3_CTS/CAN2_TX/OTG_HS_ULPI_D6/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="MODEM RESET">
+      <node ref="J2" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="PA0-WKUP(PA0)TIM2_CH1/TIM2_ETR/TIM5_CH1/TIM8_ETR/USART2_CTS/UART4_TX/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="MPPT OUTPUT (PWM)">
+      <node ref="U5" pin="61" pinfunction="PB8/TIM2_CH1/TIM2_ETR/TIM4_CH3/TIM10_CH1/I2C1_SCL/CAN1_RX/SDIO_D4/DCMI_D6/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="MPPT PWM">
+      <node ref="J2" pin="91" pinfunction="91" pintype="passive"/>
+      <node ref="U5" pin="38" pinfunction="PC7/TIM3_CH2/TIM8_CH2/FMPI2C1_SDA/SPI2_SCK/I2S2_CK/I2S3_MCK/SPDIFRX_IN1/USART6_RX/SDIO_D7/DCMI_D1/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="NEO-M8N-0 RXD">
+      <node ref="U2" pin="21" pinfunction="RXD/SPI_MOSI" pintype="input"/>
+      <node ref="U5" pin="43" pinfunction="PA10/TIM1_CH3/USART1_RX/OTG_FS_ID/DCMI_D1/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="NEO-M8N-0 TXD">
+      <node ref="U2" pin="20" pinfunction="TXD/SPI_MISO" pintype="output"/>
+      <node ref="U5" pin="42" pinfunction="PA9/TIM1_CH2/I2C3_SMBA/SPI2_SCK/I2S2_CK/SAI1_SD_B/USART1_TX/DCMI_D0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="NRST">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="NRST" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(J3-SIG)">
+      <node ref="J3" pin="3" pinfunction="SIG" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="RF_IN" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="S1" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(U1-VS)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VS" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(U2-VCC_RF)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="VCC_RF" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(U3-REGOUT)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(U4-C1)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="C1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(U5-VCAP_1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="VCAP_1" pintype="power_in"/>
+    </net>
+    <net code="38" name="Net-(U6-A0)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Phase Shifter 1">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U5" pin="44" pinfunction="PA11/TIM1_CH4/USART1_CTS/CAN1_RX/OTG_FS_DM/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Phase Shifter 2">
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="PA3/TIM2_CH4/TIM5_CH4/TIM9_CH2/SAI1_FS_A/USART2_RX/OTG_HS_ULPI_D0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Phase Shifter 3">
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="PA2/TIM2_CH3/TIM5_CH3/TIM9_CH1/USART2_TX/SAI2_SCK_B/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Phase Shifter 4">
+      <node ref="J2" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="PA1/TIM2_CH2/TIM5_CH2/USART2_RTS/UART4_RX/QUADSPI_BK1_IO3/SAI2_MCLK_B/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="SWDIO">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U5" pin="46" pinfunction="PA13/JTMS-SWDIO/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="SWO">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="55" pinfunction="PB3(JTDO/TRACESWO)/JTDO/TRACESWO/TIM2_CH2/I2C2_SDA/SPI1_SCK/I2S1_CK/SPI3_SCK/I2S3_CK/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="TIME CAP">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="PB0/TIM1_CH2N/TIM3_CH3/TIM8_CH2N/SPI3_MOSI/I2S3_SD/UART4_CTS/OTG_HS_ULPI_D1/SDIO_D1/EVENTOUT" pintype="bidirectional"/>
+      <node ref="U5" pin="37" pinfunction="PC6/TIM3_CH1/TIM8_CH1/FMPI2C1_SCL/I2S2_MCK/USART6_TX/SDIO_D6/DCMI_D0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="TRX">
+      <node ref="J2" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="U5" pin="45" pinfunction="PA12/TIM1_ETR/USART1_RTS/SAI2_FS_B/CAN1_TX/OTG_FS_DP/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(J2-Pad11)">
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(J2-Pad12)">
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(J2-Pad14)">
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(J2-Pad15)">
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(J2-Pad16)">
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(J2-Pad18)">
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(J2-Pad19)">
+      <node ref="J2" pin="19" pinfunction="19" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J2-Pad20)">
+      <node ref="J2" pin="20" pinfunction="20" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J2-Pad22)">
+      <node ref="J2" pin="22" pinfunction="22" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J2-Pad23)">
+      <node ref="J2" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(J2-Pad24)">
+      <node ref="J2" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pad26)">
+      <node ref="J2" pin="26" pinfunction="26" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pad27)">
+      <node ref="J2" pin="27" pinfunction="27" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pad28)">
+      <node ref="J2" pin="28" pinfunction="28" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J2-Pad30)">
+      <node ref="J2" pin="30" pinfunction="30" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(J2-Pad31)">
+      <node ref="J2" pin="31" pinfunction="31" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(J2-Pad32)">
+      <node ref="J2" pin="32" pinfunction="32" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(J2-Pad33)">
+      <node ref="J2" pin="33" pinfunction="33" pintype="passive"/>
+    </net>
+    <net code="73" name="unconnected-(J2-Pad34)">
+      <node ref="J2" pin="34" pinfunction="34" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(J2-Pad35)">
+      <node ref="J2" pin="35" pinfunction="35" pintype="passive"/>
+    </net>
+    <net code="75" name="unconnected-(J2-Pad36)">
+      <node ref="J2" pin="36" pinfunction="36" pintype="passive"/>
+    </net>
+    <net code="76" name="unconnected-(J2-Pad37)">
+      <node ref="J2" pin="37" pinfunction="37" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(J2-Pad38)">
+      <node ref="J2" pin="38" pinfunction="38" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(J2-Pad39)">
+      <node ref="J2" pin="39" pinfunction="39" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(J2-Pad40)">
+      <node ref="J2" pin="40" pinfunction="40" pintype="passive"/>
+    </net>
+    <net code="80" name="unconnected-(J2-Pad41)">
+      <node ref="J2" pin="41" pinfunction="41" pintype="passive"/>
+    </net>
+    <net code="81" name="unconnected-(J2-Pad42)">
+      <node ref="J2" pin="42" pinfunction="42" pintype="passive"/>
+    </net>
+    <net code="82" name="unconnected-(J2-Pad43)">
+      <node ref="J2" pin="43" pinfunction="43" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(J2-Pad44)">
+      <node ref="J2" pin="44" pinfunction="44" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(J2-Pad45)">
+      <node ref="J2" pin="45" pinfunction="45" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(J2-Pad46)">
+      <node ref="J2" pin="46" pinfunction="46" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(J2-Pad47)">
+      <node ref="J2" pin="47" pinfunction="47" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J2-Pad48)">
+      <node ref="J2" pin="48" pinfunction="48" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(J2-Pad49)">
+      <node ref="J2" pin="49" pinfunction="49" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(J2-Pad50)">
+      <node ref="J2" pin="50" pinfunction="50" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(J2-Pad51)">
+      <node ref="J2" pin="51" pinfunction="51" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(J2-Pad52)">
+      <node ref="J2" pin="52" pinfunction="52" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(J2-Pad53)">
+      <node ref="J2" pin="53" pinfunction="53" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(J2-Pad54)">
+      <node ref="J2" pin="54" pinfunction="54" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(J2-Pad55)">
+      <node ref="J2" pin="55" pinfunction="55" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(J2-Pad56)">
+      <node ref="J2" pin="56" pinfunction="56" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(J2-Pad57)">
+      <node ref="J2" pin="57" pinfunction="57" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(J2-Pad58)">
+      <node ref="J2" pin="58" pinfunction="58" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(J2-Pad59)">
+      <node ref="J2" pin="59" pinfunction="59" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(J2-Pad60)">
+      <node ref="J2" pin="60" pinfunction="60" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(J2-Pad61)">
+      <node ref="J2" pin="61" pinfunction="61" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(J2-Pad62)">
+      <node ref="J2" pin="62" pinfunction="62" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(J2-Pad63)">
+      <node ref="J2" pin="63" pinfunction="63" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(J2-Pad64)">
+      <node ref="J2" pin="64" pinfunction="64" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(J2-Pad65)">
+      <node ref="J2" pin="65" pinfunction="65" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(J2-Pad66)">
+      <node ref="J2" pin="66" pinfunction="66" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(J2-Pad67)">
+      <node ref="J2" pin="67" pinfunction="67" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(J2-Pad68)">
+      <node ref="J2" pin="68" pinfunction="68" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(J2-Pad69)">
+      <node ref="J2" pin="69" pinfunction="69" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(J2-Pad70)">
+      <node ref="J2" pin="70" pinfunction="70" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(J2-Pad71)">
+      <node ref="J2" pin="71" pinfunction="71" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(J2-Pad72)">
+      <node ref="J2" pin="72" pinfunction="72" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(J2-Pad73)">
+      <node ref="J2" pin="73" pinfunction="73" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(J2-Pad74)">
+      <node ref="J2" pin="74" pinfunction="74" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(J2-Pad75)">
+      <node ref="J2" pin="75" pinfunction="75" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(J2-Pad76)">
+      <node ref="J2" pin="76" pinfunction="76" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(J2-Pad77)">
+      <node ref="J2" pin="77" pinfunction="77" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(J2-Pad78)">
+      <node ref="J2" pin="78" pinfunction="78" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(J2-Pad79)">
+      <node ref="J2" pin="79" pinfunction="79" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(J2-Pad80)">
+      <node ref="J2" pin="80" pinfunction="80" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(J2-Pad81)">
+      <node ref="J2" pin="81" pinfunction="81" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(J2-Pad82)">
+      <node ref="J2" pin="82" pinfunction="82" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(J2-Pad84)">
+      <node ref="J2" pin="84" pinfunction="84" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(J2-Pad85)">
+      <node ref="J2" pin="85" pinfunction="85" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(J2-Pad86)">
+      <node ref="J2" pin="86" pinfunction="86" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(J2-Pad88)">
+      <node ref="J2" pin="88" pinfunction="88" pintype="passive"/>
+    </net>
+    <net code="126" name="unconnected-(J2-Pad89)">
+      <node ref="J2" pin="89" pinfunction="89" pintype="passive"/>
+    </net>
+    <net code="127" name="unconnected-(J2-Pad90)">
+      <node ref="J2" pin="90" pinfunction="90" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(J2-Pad92)">
+      <node ref="J2" pin="92" pinfunction="92" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(J2-Pad93)">
+      <node ref="J2" pin="93" pinfunction="93" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(J2-Pad94)">
+      <node ref="J2" pin="94" pinfunction="94" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(J2-Pad95)">
+      <node ref="J2" pin="95" pinfunction="95" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(J2-Pad96)">
+      <node ref="J2" pin="96" pinfunction="96" pintype="passive"/>
+    </net>
+    <net code="133" name="unconnected-(J2-Pad97)">
+      <node ref="J2" pin="97" pinfunction="97" pintype="passive"/>
+    </net>
+    <net code="134" name="unconnected-(J2-Pad98)">
+      <node ref="J2" pin="98" pinfunction="98" pintype="passive"/>
+    </net>
+    <net code="135" name="unconnected-(J2-Pad100)">
+      <node ref="J2" pin="100" pinfunction="100" pintype="passive"/>
+    </net>
+    <net code="136" name="unconnected-(J2-Pad101)">
+      <node ref="J2" pin="101" pinfunction="101" pintype="passive"/>
+    </net>
+    <net code="137" name="unconnected-(J2-Pad102)">
+      <node ref="J2" pin="102" pinfunction="102" pintype="passive"/>
+    </net>
+    <net code="138" name="unconnected-(J2-Pad104)">
+      <node ref="J2" pin="104" pinfunction="104" pintype="passive"/>
+    </net>
+    <net code="139" name="unconnected-(J2-Pad105)">
+      <node ref="J2" pin="105" pinfunction="105" pintype="passive"/>
+    </net>
+    <net code="140" name="unconnected-(J2-Pad106)">
+      <node ref="J2" pin="106" pinfunction="106" pintype="passive"/>
+    </net>
+    <net code="141" name="unconnected-(J2-Pad108)">
+      <node ref="J2" pin="108" pinfunction="108" pintype="passive"/>
+    </net>
+    <net code="142" name="unconnected-(J2-Pad109)">
+      <node ref="J2" pin="109" pinfunction="109" pintype="passive"/>
+    </net>
+    <net code="143" name="unconnected-(J2-Pad110)">
+      <node ref="J2" pin="110" pinfunction="110" pintype="passive"/>
+    </net>
+    <net code="144" name="unconnected-(J2-Pad112)">
+      <node ref="J2" pin="112" pinfunction="112" pintype="passive"/>
+    </net>
+    <net code="145" name="unconnected-(J2-Pad113)">
+      <node ref="J2" pin="113" pinfunction="113" pintype="passive"/>
+    </net>
+    <net code="146" name="unconnected-(J2-Pad114)">
+      <node ref="J2" pin="114" pinfunction="114" pintype="passive"/>
+    </net>
+    <net code="147" name="unconnected-(J2-Pad115)">
+      <node ref="J2" pin="115" pinfunction="115" pintype="passive"/>
+    </net>
+    <net code="148" name="unconnected-(J2-Pad116)">
+      <node ref="J2" pin="116" pinfunction="116" pintype="passive"/>
+    </net>
+    <net code="149" name="unconnected-(J2-Pad117)">
+      <node ref="J2" pin="117" pinfunction="117" pintype="passive"/>
+    </net>
+    <net code="150" name="unconnected-(J2-Pad118)">
+      <node ref="J2" pin="118" pinfunction="118" pintype="passive"/>
+    </net>
+    <net code="151" name="unconnected-(J2-Pad119)">
+      <node ref="J2" pin="119" pinfunction="119" pintype="passive"/>
+    </net>
+    <net code="152" name="unconnected-(J2-Pad120)">
+      <node ref="J2" pin="120" pinfunction="120" pintype="passive"/>
+    </net>
+    <net code="153" name="unconnected-(S2-Pad2)">
+      <node ref="S2" pin="2" pintype="passive"/>
+    </net>
+    <net code="154" name="unconnected-(U1-INT1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="INT1" pintype="output+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U1-INT2-Pad9)">
+      <node ref="U1" pin="9" pinfunction="INT2" pintype="output+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U1-NC-Pad10)">
+      <node ref="U1" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U1-RESERVED_GND-Pad11)">
+      <node ref="U1" pin="11" pinfunction="RESERVED_GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U1-RESERVED_VS-Pad3)">
+      <node ref="U1" pin="3" pinfunction="RESERVED_VS" pintype="passive+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U2-D_SEL-Pad2)">
+      <node ref="U2" pin="2" pinfunction="D_SEL" pintype="input+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U2-EXTINT-Pad4)">
+      <node ref="U2" pin="4" pinfunction="EXTINT" pintype="input+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U2-LNA_EN-Pad14)">
+      <node ref="U2" pin="14" pinfunction="LNA_EN" pintype="output+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U2-RESET_N-Pad8)">
+      <node ref="U2" pin="8" pinfunction="RESET_N" pintype="input+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U2-SAFEBOOT_N-Pad1)">
+      <node ref="U2" pin="1" pinfunction="SAFEBOOT_N" pintype="input+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U2-SCL{slash}SPI_CLK-Pad19)">
+      <node ref="U2" pin="19" pinfunction="SCL/SPI_CLK" pintype="input+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U2-SDA{slash}SPI_CS_N-Pad18)">
+      <node ref="U2" pin="18" pinfunction="SDA/SPI_CS_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U2-TIMEPULSE-Pad3)">
+      <node ref="U2" pin="3" pinfunction="TIMEPULSE" pintype="output+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U2-USB_DM-Pad5)">
+      <node ref="U2" pin="5" pinfunction="USB_DM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U2-USB_DP-Pad6)">
+      <node ref="U2" pin="6" pinfunction="USB_DP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(U3-FSYNC-Pad8)">
+      <node ref="U3" pin="8" pinfunction="FSYNC" pintype="input+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(U3-INT-Pad6)">
+      <node ref="U3" pin="6" pinfunction="INT" pintype="output+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(U3-SA0{slash}SDO-Pad4)">
+      <node ref="U3" pin="4" pinfunction="SA0/SDO" pintype="output+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(U4-DRDY-Pad8)">
+      <node ref="U4" pin="8" pinfunction="DRDY" pintype="output+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(U4-INT-Pad7)">
+      <node ref="U4" pin="7" pinfunction="INT" pintype="output+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(U4-RSVD1-Pad2)">
+      <node ref="U4" pin="2" pinfunction="RSVD1" pintype="passive+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(U4-RSVD2-Pad12)">
+      <node ref="U4" pin="12" pinfunction="RSVD2" pintype="passive+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(U5-PA14{slash}JTCK-SWCLK{slash}EVENTOUT-Pad49)">
+      <node ref="U5" pin="49" pinfunction="PA14/JTCK-SWCLK/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="177" name="unconnected-(U5-PB1{slash}TIM1_CH3N{slash}TIM3_CH4{slash}TIM8_CH3N{slash}OTG_HS_ULPI_D2{slash}SDIO_D2{slash}EVENTOUT-Pad27)">
+      <node ref="U5" pin="27" pinfunction="PB1/TIM1_CH3N/TIM3_CH4/TIM8_CH3N/OTG_HS_ULPI_D2/SDIO_D2/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="178" name="unconnected-(U5-PB2-BOOT1(PB2){slash}TIM2_CH4{slash}SAI1_SD_A{slash}SPI3_MOSI{slash}I2S3_SD{slash}QUADSPI_CLK{slash}OTG_HS_ULPI_D4{slash}SDIO_CK{slash}EVENTOUT-Pad28)">
+      <node ref="U5" pin="28" pinfunction="PB2-BOOT1(PB2)/TIM2_CH4/SAI1_SD_A/SPI3_MOSI/I2S3_SD/QUADSPI_CLK/OTG_HS_ULPI_D4/SDIO_CK/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="179" name="unconnected-(U5-PB4(NJTRST){slash}NJTRST{slash}TIM3_CH1{slash}I2C3_SDA{slash}SPI1_MISO{slash}SPI3_MISO{slash}SPI2_NSS{slash}I2S2_WS{slash}EVENTOUT-Pad56)">
+      <node ref="U5" pin="56" pinfunction="PB4(NJTRST)/NJTRST/TIM3_CH1/I2C3_SDA/SPI1_MISO/SPI3_MISO/SPI2_NSS/I2S2_WS/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="180" name="unconnected-(U5-PB5{slash}TIM3_CH2{slash}I2C1_SMBA{slash}SPI1_MOSI{slash}I2S1_SD{slash}SPI3_MOSI{slash}I2S3_SD{slash}CAN2_RX{slash}OTG_HS_ULPI_D7{slash}FMC_SDCKE1{slash}DCMI_D10{slash}EVENTOUT-Pad57)">
+      <node ref="U5" pin="57" pinfunction="PB5/TIM3_CH2/I2C1_SMBA/SPI1_MOSI/I2S1_SD/SPI3_MOSI/I2S3_SD/CAN2_RX/OTG_HS_ULPI_D7/FMC_SDCKE1/DCMI_D10/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="181" name="unconnected-(U5-PB9{slash}TIM2_CH2{slash}TIM4_CH4{slash}TIM11_CH1{slash}I2C1_SDA{slash}SPI2_NSS{slash}I2S2_WS{slash}SAI1_FS_B{slash}CAN1_TX{slash}SDIO_D5{slash}DCMI_D7{slash}EVENTOUT-Pad62)">
+      <node ref="U5" pin="62" pinfunction="PB9/TIM2_CH2/TIM4_CH4/TIM11_CH1/I2C1_SDA/SPI2_NSS/I2S2_WS/SAI1_FS_B/CAN1_TX/SDIO_D5/DCMI_D7/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="182" name="unconnected-(U5-PB10{slash}TIM2_CH3{slash}I2C2_SCL{slash}SPI2_SCK{slash}I2S2_CK{slash}SAI1_SCK_A{slash}USART3_TX{slash}OTG_HS_ULPI_D3{slash}EVENTOUT-Pad29)">
+      <node ref="U5" pin="29" pinfunction="PB10/TIM2_CH3/I2C2_SCL/SPI2_SCK/I2S2_CK/SAI1_SCK_A/USART3_TX/OTG_HS_ULPI_D3/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="183" name="unconnected-(U5-PC0{slash}SAI1_MCLK_B{slash}OTG_HS_ULPI_STP{slash}FMC_SDNWE{slash}EVENTOUT-Pad8)">
+      <node ref="U5" pin="8" pinfunction="PC0/SAI1_MCLK_B/OTG_HS_ULPI_STP/FMC_SDNWE/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="184" name="unconnected-(U5-PC1{slash}SPI3_MOSI{slash}I2S3_SD{slash}SAI1_SD_A{slash}SPI2_MOSI{slash}I2S2_SD{slash}EVENTOUT-Pad9)">
+      <node ref="U5" pin="9" pinfunction="PC1/SPI3_MOSI/I2S3_SD/SAI1_SD_A/SPI2_MOSI/I2S2_SD/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="185" name="unconnected-(U5-PC2{slash}SPI2_MISO{slash}OTG_HS_ULPI_DIR{slash}FMC_SDNE0{slash}EVENTOUT-Pad10)">
+      <node ref="U5" pin="10" pinfunction="PC2/SPI2_MISO/OTG_HS_ULPI_DIR/FMC_SDNE0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="186" name="unconnected-(U5-PC3{slash}SPI2_MOSI{slash}I2S2_SD{slash}OTG_HS_ULPI_NXT{slash}FMC_SDCKE0{slash}EVENTOUT-Pad11)">
+      <node ref="U5" pin="11" pinfunction="PC3/SPI2_MOSI/I2S2_SD/OTG_HS_ULPI_NXT/FMC_SDCKE0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="187" name="unconnected-(U5-PC4{slash}I2S1_MCK{slash}SPDIFRX_IN2{slash}FMC_SDNE0{slash}EVENTOUT-Pad24)">
+      <node ref="U5" pin="24" pinfunction="PC4/I2S1_MCK/SPDIFRX_IN2/FMC_SDNE0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="188" name="unconnected-(U5-PC5{slash}USART3_RX{slash}SPDIFRX_IN3{slash}FMC_SDCKE0{slash}EVENTOUT-Pad25)">
+      <node ref="U5" pin="25" pinfunction="PC5/USART3_RX/SPDIFRX_IN3/FMC_SDCKE0/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="189" name="unconnected-(U5-PC8{slash}TRACED0{slash}TIM3_CH3{slash}TIM8_CH3{slash}UART5_RTS{slash}USART6_CK{slash}SDIO_D0{slash}DCMI_D2{slash}EVENTOUT-Pad39)">
+      <node ref="U5" pin="39" pinfunction="PC8/TRACED0/TIM3_CH3/TIM8_CH3/UART5_RTS/USART6_CK/SDIO_D0/DCMI_D2/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="190" name="unconnected-(U5-PC13{slash}EVENTOUT-Pad2)">
+      <node ref="U5" pin="2" pinfunction="PC13/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="191" name="unconnected-(U5-PC14-OSC32_IN(PC14){slash}EVENTOUT-Pad3)">
+      <node ref="U5" pin="3" pinfunction="PC14-OSC32_IN(PC14)/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="192" name="unconnected-(U5-PC15-OSC32_OUT(PC15){slash}EVENTOUT-Pad4)">
+      <node ref="U5" pin="4" pinfunction="PC15-OSC32_OUT(PC15)/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="193" name="unconnected-(U5-PD2{slash}TIM3_ETR{slash}UART5_RX{slash}SDIO_CMD{slash}DCMI_D11{slash}EVENTOUT-Pad54)">
+      <node ref="U5" pin="54" pinfunction="PD2/TIM3_ETR/UART5_RX/SDIO_CMD/DCMI_D11/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="194" name="unconnected-(U5-PH0-OSC_IN{slash}EVENTOUT-Pad5)">
+      <node ref="U5" pin="5" pinfunction="PH0-OSC_IN/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="195" name="unconnected-(U5-PH1-OSC_OUT{slash}EVENTOUT-Pad6)">
+      <node ref="U5" pin="6" pinfunction="PH1-OSC_OUT/EVENTOUT" pintype="bidirectional"/>
+    </net>
+    <net code="196" name="unconnected-(U6-OS-Pad3)">
+      <node ref="U6" pin="3" pinfunction="OS" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -18,8 +18,11 @@ void vTelemetryInit(void)
  */
 void vTelemetryTask(void *pvParameters)
 {
+    COM_Init();
+    COM_printf("Telemetry task started\n");
     INA226Read();
     LM75ARead();
+    ADXL345Read();
     vTaskDelete(NULL);
 }
 
@@ -42,7 +45,7 @@ void LM75ARead()
     // Initialize the buffer with 0
     memset(tes, 0, sizeof(tes));
 
-    for (;;)
+    for (;;) // Infinite loop
     {
         HAL_StatusTypeDef status = LM75_ReadReg(LM75_TEMP_REG, data, 2);
 
@@ -151,5 +154,39 @@ void INA226Read()
         COM_printf("\n");
 
         break;
+    }
+}
+
+void ADXL345Read()
+{
+    ADXL345_Init();
+    COM_Init();
+
+    int16_t x = 0, y = 0, z = 0;
+
+    for (;;)
+    {
+        ADXL345_ReadAccel(x, y, z);
+
+        if (x != 0 || y != 0 || z != 0)
+        {
+
+            COM_printf("X: ");
+            COM_printf(x);
+            COM_printf("\n");
+
+            COM_printf("Y: ");
+            COM_printf(y);
+            COM_printf("\n");
+
+            COM_printf("Z: ");
+            COM_printf(z);
+            COM_printf("\n");
+            break;
+        }
+        else
+        {
+            continue;
+        }
     }
 }
