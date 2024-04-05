@@ -88,7 +88,8 @@
     "string.h": "c",
     "gpio_mapping.h": "c",
     "minmea.h": "c",
-    "semphr.h": "c"
+    "semphr.h": "c",
+    "cc1120_driver.h": "c"
   },
   "cmake.sourceDirectory": "C:/Zaid/Fun_Projects_Code/CASE/Drivers/CMSIS/DSP/Examples/ARM/arm_bayes_example"
 }

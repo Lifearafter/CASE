@@ -20,9 +20,10 @@ void vTelemetryTask(void *pvParameters)
 {
     COM_Init();
     COM_printf("Telemetry task started\n");
-    INA226Read();
-    LM75ARead();
-    ADXL345Read();
+    // INA226Read();
+    // LM75ARead();
+    // ADXL345Read();
+    CC1120Read();
     vTaskDelete(NULL);
 }
 
@@ -188,5 +189,39 @@ void ADXL345Read()
         {
             continue;
         }
+        vTaskDelay(1000);
+    }
+}
+
+void CC1120Read()
+{
+    CC1120_Init();
+    COM_Init();
+
+    uint8_t data;
+    uint8_t exit_counter = 0;
+
+    for (;;)
+    {
+        data = CC1120_ReadRegister(CC1120_PARTNUM);
+
+        if (data != 0)
+        {
+            COM_printf("CC1120 Part Number: ");
+            COM_printf(data);
+            COM_printf("\n");
+            break;
+        }
+        else
+        {
+            exit_counter++;
+            if (exit_counter == 5)
+            {
+                COM_printf("CC1120 not responding, exiting\n");
+                break;
+            }
+            continue;
+        }
+        vTaskDelay(1000);
     }
 }

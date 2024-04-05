@@ -58,6 +58,7 @@
 #define CC1120_REG_CFM_DATA_CFG 0x34
 #define CC1120_REG_EXT_CTRL 0x35
 #define CC1120_REG_RCCAL_CFG 0x36
+#define CC1120_PARTNUM 0x8F
 
 // Set SPI Handler
 void SPI_Init(void);
