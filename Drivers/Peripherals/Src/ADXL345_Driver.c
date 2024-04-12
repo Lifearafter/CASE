@@ -20,8 +20,8 @@ void ADXL345_Init(void)
     spi.instance.Init.CRCPolynomial = 10;
     HAL_SPI_Init(&spi.instance);
 
-    // Initialize CS pin
     GPIO_InitTypeDef GPIO_InitStruct;
+    // Initialize CS pin
     spi.csPort = GPIOA;
     spi.csPin = GPIO_PIN_4;
     __HAL_RCC_GPIOA_CLK_ENABLE();
@@ -30,7 +30,6 @@ void ADXL345_Init(void)
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     HAL_GPIO_Init(spi.csPort, &GPIO_InitStruct);
-    HAL_GPIO_WritePin(spi.csPort, spi.csPin, GPIO_PIN_SET);
 }
 
 // Read from the ADXL345: send the register address and read the data

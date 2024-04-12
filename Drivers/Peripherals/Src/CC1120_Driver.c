@@ -4,8 +4,12 @@
 SPI_HandleTypeDef hspi;
 
 // Initialize SPI peripheral
-void SPI_Init(void)
+void CC1120_Init(void)
 {
+    // Turn on SPI clock and GPIO Clock
+    __HAL_RCC_SPI1_CLK_ENABLE();
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+
     hspi.Instance = SPI1;
     hspi.Init.Mode = SPI_MODE_MASTER;
     hspi.Init.Direction = SPI_DIRECTION_2LINES;
@@ -19,6 +23,15 @@ void SPI_Init(void)
     hspi.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
     hspi.Init.CRCPolynomial = 10;
     HAL_SPI_Init(&hspi);
+
+    // Initialize CS pin
+    GPIO_InitTypeDef GPIO_InitStruct1;
+    GPIO_InitStruct1.Pin = GPIO_PIN_4;
+    GPIO_InitStruct1.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct1.Pull = GPIO_NOPULL;
+    GPIO_InitStruct1.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct1);
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET); // CS high
 }
 
 // Write to CC1120 register

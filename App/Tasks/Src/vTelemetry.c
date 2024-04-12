@@ -22,7 +22,7 @@ void vTelemetryTask(void *pvParameters)
     COM_printf("Telemetry task started\n");
     // INA226Read();
     // LM75ARead();
-    // ADXL345Read();
+    //  ADXL345Read();
     CC1120Read();
     vTaskDelete(NULL);
 }

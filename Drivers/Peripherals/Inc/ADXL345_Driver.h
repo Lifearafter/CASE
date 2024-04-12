@@ -42,6 +42,7 @@
 #define ADXL345_RANGE_4G 0x01
 #define ADXL345_RANGE_8G 0x02
 #define ADXL345_RANGE_16G 0x03
+
 struct SPI_Module
 {
     SPI_HandleTypeDef instance;

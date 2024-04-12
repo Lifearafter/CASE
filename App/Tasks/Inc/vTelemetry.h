@@ -27,5 +27,6 @@ void NEOM8NRead();
 void ADXL345Read();
 void IAM20685Read();
 void LIS3MDLRead();
+void CC1120Read();
 
 #endif
